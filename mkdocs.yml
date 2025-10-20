@@ -32,8 +32,8 @@ theme:
       primary: indigo
       accent: blue
 
-repo_name: XAUTOMATA Documentation
-repo_url: https://github.com/xautomata/Documentation.git
+repo_name: XAUTOMATA User Interface Documentation
+repo_url: https://github.com/xautomata/User-Interface-Manual.git
 
 plugins:
   - mkdocstrings
@@ -52,11 +52,29 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 nav:
   - index.md
-  - Dashboards: Dashboards.md
-
+  - Access: Login.md
+#  - Main Menu: main.md
+#  - Side Menu:
+#      - Asset: asset.md
+#      - Disptcher: disptcher.md
+#      - Admin: admin.md
+  - Dashboards Description:
+      - Overview: overview.md
+      - IT Infrastructure: it_infrastructure.md
+#      - Dashboard2: dash2.md
+#      - Dashboard3: dash3.md
+#      - Dashboard4: dash4.md
+#  - Tree View: tree.md
+#  - Widgets Description:
+#      - Widgets1: wid1.md
+#      - Widgets2: wid2.md
+#      - Widgets3: wid3.md
+#      - Widgets4: wid4.md
 
 
 
