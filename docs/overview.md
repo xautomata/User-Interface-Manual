@@ -1,4 +1,4 @@
-# Overview
+# Dashboard Overview
 
 Figure 1 shows the page that appears immediately after logging in. This page features a series of menus for interaction:
 
@@ -18,10 +18,12 @@ Figure 1 shows the page that appears immediately after logging in. This page fea
 
 7. Customer/Administrator/Dispatcher menu.
 
-> **NOTE** Not all dashboards are always visible; it depends on whether the user logged into the portal has visibility of the
-> widgets contained within a dashboard. If none of the widgets in a dashboard are visible to that user, 
-> the dashboard itself will not be displayed on the interface. The visibility of widgets depends on the type 
-> of data collected by XAUTOMATA to manage digitized processes and the type of contract in place.
+!!! note
+
+    Not all dashboards are always visible; it depends on whether the user logged into the portal has visibility of the
+    widgets contained within a dashboard. If none of the widgets in a dashboard are visible to that user, 
+    the dashboard itself will not be displayed on the interface. The visibility of widgets depends on the type 
+    of data collected by XAUTOMATA to manage digitized processes and the type of contract in place.
 
 ![Overview](images/overview.jpg)
 /// caption

@@ -64,18 +64,23 @@ nav:
 #      - Disptcher: disptcher.md
 #      - Admin: admin.md
   - Dashboards Description:
-      - Overview: overview.md
+      - Dashboard Overview: overview.md
       - IT Infrastructure: it_infrastructure.md
 #      - Dashboard2: dash2.md
 #      - Dashboard3: dash3.md
 #      - Dashboard4: dash4.md
 #  - Tree View: tree.md
-#  - Widgets Description:
-#      - Widgets1: wid1.md
-#      - Widgets2: wid2.md
-#      - Widgets3: wid3.md
-#      - Widgets4: wid4.md
-
+  - Widgets Description:
+      - Widget Overview: widget_overview.md
+#      - Analytical Accounting: wid1.md
+#      - Cloud Cost: wid2.md
+      - IT Analytics: widget_it_analytics.md
+#      - IT Anomalies: wid4.md
+      - IT Infrastructure: widget_it_infrastructure.md
+#      - MCD Dedicated: wid4.md
+#      - Net Flow: wid4.md
+#      - Network: wid4.md
+#      - support Service KPI: wid4.md
 
 
 copyright:
