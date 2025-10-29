@@ -7,6 +7,14 @@ Shows the geographic distribution of all IT objects groups. The data are collect
 By clicking on one of the dots you can access the detiled information of that object.
 The color of the dots represent the status of the object, could be green, reb, yellow, purple, grey.
 
+!!! info
+
+    - **Red** indicates the presence of a problem.  
+    - **Yellow** indicates the presence of a warning.  
+    - **Green** represents the correct status of an object.  
+    - **Purple** indicates that no data is being retrieved for the object.  
+    - **Gray** represents an object that has no data.
+
 ![Widget_Resource_group_distribution_map](images/Resource_group_distribution_map.jpg)
 
 
@@ -16,6 +24,14 @@ Shows the state of the resources groups.
 The color of the boxs represent the status of the object, could be green, reb, yellow, purple, grey.
 By clicking on a box you can drill down to explode each object to its metrics, to find which is the cause
 of a problem.
+
+!!! info
+
+    - **Red** indicates the presence of a problem.  
+    - **Yellow** indicates the presence of a warning.  
+    - **Green** represents the correct status of an object.  
+    - **Purple** indicates that no data is being retrieved for the object.  
+    - **Gray** represents an object that has no data.
 
 ![Widget_Resource_group_status](images/resource_groups_status.jpg)
 
@@ -29,6 +45,14 @@ most recent on top.
 By clicking on the magnifying glass, you can view the history of the statuses associated with
 that object. Meanwhile, clicking on the chain symbol opens a modal window with information
 about the actions taken by the automata for managing that critical event.
+
+!!! info
+
+    - **Red** indicates the presence of a problem.  
+    - **Yellow** indicates the presence of a warning.  
+    - **Green** represents the correct status of an object.  
+    - **Purple** indicates that no data is being retrieved for the object.  
+    - **Gray** represents an object that has no data.
 
 ![Widget_it_resouces_status](images/it_resouces_status.jpg)
 

@@ -10,3 +10,5 @@ of these groups ensures visibility of all the widgets within it.
 4. [IT Anomalies](widget_it_anomalies.md)
 5. [IT Infrastructure](widget_it_infrastructure.md)
 6. [support Service KPI](widget_supportservice.md)
+7. [Network](widget_network.md)
+8. [Netwrok Analytics](widget_network_analytics.md)
