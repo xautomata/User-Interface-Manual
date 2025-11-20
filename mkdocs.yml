@@ -3,6 +3,7 @@ site_description: Documentation for the use of XAUTOMATA Services
 site_url: https://www.xautomata.com/
 
 theme:
+  favicon: images/logo.png
   name: material
   features:
     - search.suggest
@@ -33,7 +34,6 @@ theme:
       accent: blue
 
 repo_name: XAUTOMATA User Interface Documentation
-repo_url: https://github.com/xautomata/User-Interface-Manual.git
 
 plugins:
   - mkdocstrings
