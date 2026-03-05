@@ -56,32 +56,39 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 nav:
-  - index.md
-  - Access: Login.md
-#  - Main Menu: main.md
-#  - Side Menu:
-#      - Asset: asset.md
-#      - Disptcher: disptcher.md
-#      - Admin: admin.md
-  - Dashboards Description:
+  - Home: index.md
+
+  - Access:
+      - Login: Login.md
+
+  - Dashboards:
       - Dashboard Overview: overview.md
       - IT Infrastructure: it_infrastructure.md
       - Network: network_dashboard.md
       - Cloud Cost: cloudcost_dashboard.md
-#      - Dashboard4: dash4.md
-#  - Tree View: tree.md
-  - Widgets Description:
+
+  - Widgets:
       - Widget Overview: widget_overview.md
-#      - Analytical Accounting: wid1.md
-      - Cloud Cost: widget_cloudcost.md
-      - IT Analytics: widget_it_analytics.md
-#      - IT Anomalies: wid4.md
-      - IT Infrastructure: widget_it_infrastructure.md
-#      - MCD Dedicated: wid4.md
-#      - Net Flow: wid4.md
-      - Network: widget_network.md
-      - Network Analytics: widget_network_analytics.md
-#      - support Service KPI: wid4.md
+
+      - Infrastructure Monitoring:
+          - IT Infrastructure: widget_it_infrastructure.md
+          - IT Analytics: widget_it_analytics.md
+          - IT Anomalies: widget_it_anomalies.md
+
+      - Network Governance:
+          - Network: widget_network.md
+          - Network Analytics: widget_network_analytics.md
+          - Net Flow: widget_net_flow.md
+
+      - Service Management:
+          - Support Service KPI: widget_support_service_kpi.md
+
+      - Cost Governance:
+          - Cloud Cost: widget_cloudcost.md
+          - Analytical Accounting: widget_analytical.md
+
+      - Dedicated Widgets:
+          - MCD Dedicated: widget_mcd_dedicated.md
 
 
 copyright:
