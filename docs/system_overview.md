@@ -16,7 +16,6 @@ Customer
         └─ Groups
              └─ Objects
                   └─ Metrics
-
 ```
 
 * **Customers** represent organizations monitored by the platform.
@@ -85,6 +84,36 @@ Several administrative entities support the platform operation, including:
 
 These components allow administrators to manage authentication, permissions, monitoring agents, and notification channels.
 
----
+## Platform Data Structure
+
+The entities described above form the data structure of the XAUTOMATA platform.
+
+Operational data flows from infrastructure monitoring and cloud billing sources into the system, where it is processed and visualized through widgets and dashboards.
+
+```text
+Infrastructure Systems
+        ↓
+Probes collect metrics
+        ↓
+Metrics stored and processed
+        ↓
+Widgets visualize operational data
+        ↓
+Dashboards provide monitoring views
+```
+
+Cloud cost data follows a similar flow:
+
+```text
+Cloud Providers
+        ↓
+Billing data imported
+        ↓
+Cloud Cost widgets analyze raw data
+        ↓
+Cost Views reorganize costs
+        ↓
+Analytical Accounting widgets provide financial insights
+```
 
 Together, these elements form the foundation of the XAUTOMATA platform, enabling organizations to monitor infrastructure, analyze operational metrics, and manage cloud costs from a unified environment.
