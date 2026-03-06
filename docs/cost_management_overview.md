@@ -1,18 +1,71 @@
-# Cost Management
+# Cost Management Overview
 
-XAUTOMATA provides a set of tools that allow users to collect, organize, and analyze cloud infrastructure costs.
+The **Cost Management** area of XAUTOMATA provides tools to import, organize, and analyze cloud cost data.
 
-The cost management workflow in the platform is based on three main steps:
+This area is designed to support both operational cloud cost monitoring and customer-defined analytical accounting models.
+
+## Cost Management Workflow
+
+The cost management process is based on three main steps:
 
 1. **Cloud Cost Registration**  
-   Configuration of connections to cloud providers in order to retrieve billing data.
+   Cloud provider accounts are registered in the platform so that billing data can be retrieved.
 
-2. **Cost Views**  
-   Definition of hierarchical structures used to organize and classify cloud costs according to business needs.
+2. **Raw Cost Data Import**  
+   The platform imports raw billing data from the configured providers.
 
-3. **Cost Analysis Widgets**  
-   Visualization and exploration of cost data through dedicated dashboards and widgets.
+3. **Cost Organization and Analysis**  
+   Imported resources can be manually organized through **Cost Views** and then analyzed through dashboards and widgets.
 
-Together, these components allow users to transform raw billing data coming from cloud providers into structured and analyzable information.
+## Cloud Cost Registration
 
-Cloud costs can be explored either through **Cloud Cost widgets**, which provide operational views of spending, or through **Analytical Accounting widgets**, which display costs according to user-defined cost structures.
+The **Cloud Cost Registration** section allows administrators to configure access to supported cloud providers, such as:
+
+- Azure CSP
+- Azure
+- AWS
+- Google Cloud
+
+These configurations enable XAUTOMATA to retrieve cloud billing data directly from provider APIs.
+
+## Raw Billing Data
+
+Cloud providers typically return billing data in a technical, provider-oriented structure.
+
+This raw data may include information such as:
+
+- subscriptions
+- resource groups
+- locations
+- resource identifiers
+- categories
+- costs
+
+Although useful for technical analysis, this structure does not necessarily match the customer’s internal organizational model.
+
+## Cost Views
+
+To support analytical accounting, XAUTOMATA provides **Cost Views**.
+
+A Cost View is a customer-defined structure used to manually organize cloud resources according to business or accounting criteria.
+
+This allows customers to transform raw provider billing data into a structured model that reflects their own needs.
+
+For example, costs can be organized by:
+
+- department
+- project
+- service
+- cost center
+
+## Cost Analysis
+
+Once the cloud cost data has been imported and organized, it can be analyzed through two different perspectives:
+
+- **Cloud Cost widgets**  
+  Focused on direct analysis of imported cost data, trends, breakdowns, forecasts, and anomalies.
+
+- **Analytical Accounting widgets**  
+  Focused on customer-defined cost structures created through Cost Views.
+
+Together, these tools provide both operational visibility and accounting-oriented cost analysis.

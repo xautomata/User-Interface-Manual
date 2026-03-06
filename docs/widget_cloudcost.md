@@ -5,6 +5,10 @@ The **Cloud Cost** widget group provides operational and analytical views of clo
 These widgets help users monitor trends, breakdowns, forecasts, and anomalies in cloud costs.  
 Unlike the **Analytical Accounting** widgets, which display costs according to user-defined **Cost Views**, Cloud Cost widgets focus on direct analysis of the imported billing data.
 
+Cloud cost data is collected from the cloud providers configured in the **Cloud Cost Registration** section.  
+The widgets in this group analyze the imported billing data directly.
+
+For cost analysis based on a customer-defined accounting structure, see the **Analytical Accounting** widgets and the **Cost Views** configuration.
 
 ## Costs Balance Month
 
@@ -107,20 +111,19 @@ download the values displayed in the widget in Excel format.
 ## Costs By Subscription Type
 
 This widget shows the breakdown of the total monthly expenditure
-across the different 
-cloud providers for which a subscription is held.
+across the different cloud subscriptions configured in the platform.
 
 There is a button in the top right corner that allows you to 
 download the values displayed in the widget in Excel format.
 
 ![costs-by-subscription-type](images/costbysubtype.jpg)
 
-## Costs By Resorurce Group
+## Costs By resource Group
 
 The widget is divided into two main views.  
 
 The **first view** shows the cloud costs of various providers, 
-grouped by *Resorurce Group*.  
+grouped by *resource Group*.  
 On the left is a graphical representation, while on the right
 is a breakdown of the expenses.  
 By clicking on one of the sections of the chart, you access the 
@@ -145,12 +148,12 @@ download the values displayed in the widget in Excel format.
 
 ![costs-by-resource-group](images/costbyresgroup.jpg)
 
-## Costs By Resorurce Location
+## Costs By resource Location
 
 The widget is divided into two main views.  
 
 The **first view** shows the cloud costs of various providers, 
-grouped by *Resorurce Location*.  
+grouped by *resource Location*.  
 On the left is a graphical representation, while on the right
 is a breakdown of the expenses.  
 By clicking on one of the sections of the chart, you access the 
@@ -198,9 +201,8 @@ download the values displayed in the widget in Excel format.
     **What is a cost anomaly?**
 
     A cost anomaly is an unexpected cost behavior, detected in 
-    recent transactions. An anomaly does not necessarily involve a real 
-    problem, but they are intended to keep track of costs that can 
-    potentially be an indicator of some problems.
+    recent transactions. An anomaly does not necessarily indicate a real problem.
+    It highlights unusual cost patterns that may require further investigation.
 
     This widget shows a list of all the anomalies detected in the current period, which can be of different types:
 

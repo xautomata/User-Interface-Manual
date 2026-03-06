@@ -56,13 +56,39 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 nav:
+
   - Home: index.md
+  - System Overview: system_overview.md
 
   - Access:
       - Login: Login.md
 
+  - User Interface:
+      - Overview: ui_overview.md
+      - Navigation: navigation.md
+
+  - Data Manager:
+      - Overview: data_manager_overview.md
+
+      - Customers:
+          - Customers: customers.md
+          - Sites: sites.md
+          - Contacts: contacts.md
+
+      - Objects Repository:
+          - Groups: groups.md
+          - Objects: objects.md
+          - Metric Types: metric_types.md
+          - Metrics: metrics.md
+          - Services: services.md
+
+      - Tracking:
+          - Calendars: calendars.md
+          - Downtimes: downtimes.md
+          - Dispatchers: dispatchers.md
+
   - Dashboards:
-      - Dashboard Overview: overview.md
+      - Dashboard Overview: dashboards_overview.md
       - IT Infrastructure: it_infrastructure.md
       - Network: network_dashboard.md
       - Cloud Cost: cloudcost_dashboard.md
@@ -94,6 +120,25 @@ nav:
 
       - Dedicated Widgets:
           - MCD Dedicated: widget_mcd_dedicated.md
-          
+          - MCD Massive Reboot: widget_mcd_reboot.md
+          - MCD Rebuild VM: widget_mcd_rebuild_vm.md
+          - MCD Massive Downtime: widget_mcd_downtime.md
+
+  - Administration:
+      - Overview: administration_overview.md
+      - Users: users.md
+      - Virtual Domains: virtual_domains.md
+      - Probes: probes.md
+      - Probe Types: probe_types.md
+      - Messages: messages.md
+      - Notification Providers: notification_providers.md
+      - Notification Provider Types: notification_provider_types.md
+
+  - Super Admin:
+      - Widgets: admin_widgets.md
+      - Widget Groups: admin_widget_groups.md
+      - Dashboards: admin_dashboards.md
+      - ACL Overrides: acl_overrides.md
+
 copyright:
   All rights reserved
