@@ -67,6 +67,11 @@ nav:
       - Network: network_dashboard.md
       - Cloud Cost: cloudcost_dashboard.md
 
+  - Cost Management:
+      - Overview: cost_management_overview.md
+      - Cloud Cost Registration: cloud_cost_registration.md
+      - Cost Views: cost_views.md
+
   - Widgets:
       - Widget Overview: widget_overview.md
 
@@ -89,7 +94,6 @@ nav:
 
       - Dedicated Widgets:
           - MCD Dedicated: widget_mcd_dedicated.md
-
-
+          
 copyright:
   All rights reserved

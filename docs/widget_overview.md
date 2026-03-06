@@ -63,7 +63,7 @@ and support activities.
 
 # Cost Governance
 
-These widgets support financial monitoring of infrastructure resources.
+These widget groups support cloud cost analysis and cost organization.
 
 - [Cloud Cost](widget_cloudcost.md)  
   Multi-cloud cost governance and expenditure monitoring.

@@ -1,5 +1,11 @@
 # Cloud Cost
 
+The **Cloud Cost** widget group provides operational and analytical views of cloud spending collected from the configured cloud providers.
+
+These widgets help users monitor trends, breakdowns, forecasts, and anomalies in cloud costs.  
+Unlike the **Analytical Accounting** widgets, which display costs according to user-defined **Cost Views**, Cloud Cost widgets focus on direct analysis of the imported billing data.
+
+
 ## Costs Balance Month
 
 Displays the cumulative trend of daily spending for the selected 
