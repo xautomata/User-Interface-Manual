@@ -6,6 +6,8 @@ The system organizes data through a set of interconnected entities that represen
 
 These entities feed the platform’s dashboards and widgets, which provide operational and analytical insights.
 
+The platform models monitored infrastructures as a Digital Twin, where each entity represents a component of the real system and its operational state.
+
 ## Core Concepts
 
 At its core, XAUTOMATA models the monitored environment as a set of hierarchical entities.

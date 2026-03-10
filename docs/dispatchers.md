@@ -1,6 +1,6 @@
 # Dispatchers
 
-Dispatchers define automated actions triggered by monitoring events.
+Dispatchers are triggered by state transitions evaluated by the Automata Engine.
 
 They are used to connect monitoring alerts with operational workflows such as notifications, ticket creation, or automated responses.
 

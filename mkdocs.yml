@@ -65,10 +65,12 @@ extra_javascript:
 nav:
 
   - Home: index.md
-  - System Overview: system_overview.md
-  - Monitoring Lifecycle: monitoring_lifecycle.md
-  - Metrics and Metric Types: metrics_model.md
-  - Monitoring Architecture: monitoring_architecture.md
+  - Platform Concepts:
+      - System Overview: system_overview.md
+      - Platform Models: platform_models.md
+      - Monitoring Lifecycle: monitoring_lifecycle.md
+      - Metrics and Metric Types: metrics_model.md
+      - Monitoring Architecture: monitoring_architecture.md
 
   - Access:
       - Login: Login.md
