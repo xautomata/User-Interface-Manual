@@ -49,16 +49,26 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
 
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
 nav:
 
   - Home: index.md
   - System Overview: system_overview.md
+  - Monitoring Lifecycle: monitoring_lifecycle.md
+  - Metrics and Metric Types: metrics_model.md
+  - Monitoring Architecture: monitoring_architecture.md
 
   - Access:
       - Login: Login.md
@@ -69,6 +79,8 @@ nav:
 
   - Data Manager:
       - Overview: data_manager_overview.md
+      - Working with Entities: working_with_entities.md
+      - Tree Hierarchy View: tree_hierarchy_view.md
 
       - Customers:
           - Customers: customers.md
@@ -82,7 +94,7 @@ nav:
           - Metrics: metrics.md
           - Services: services.md
 
-      - Tracking:
+      - Monitoring Operations:
           - Calendars: calendars.md
           - Downtimes: downtimes.md
           - Dispatchers: dispatchers.md
