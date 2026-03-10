@@ -47,7 +47,7 @@ Both the widget and the drilldown view include a **download button** that allows
 
 ## Available Views
 
-The Event Analysis widget can be initially configured to display events grouped by different categories:
+The Event Analysis widgets are available in multiple predefined views, each one using a different initial grouping criterion:
 
 - **Events by Type**
 - **Events by Opening Mode**
@@ -56,7 +56,7 @@ The Event Analysis widget can be initially configured to display events grouped 
 - **Events by Organization**
 - **Events by SLA of Taking Charge**
 
-Although these widgets appear separately in the dashboard, they all use the same analysis engine and drilldown interface.
+These are separate widget configurations, but they all share the same interaction model and drilldown interface.
 
 ## Events History by Type
 

@@ -24,6 +24,12 @@ Examples of entities include:
 
 These entities are connected through relationships that reflect real-world structures.
 
+Most entities in the Data Manager follow a common interaction pattern 
+based on filtering, tabular results, CRUD dialogs, and entity relationships.
+
+For a detailed explanation of how these interfaces work, see  
+[Working with Entities](working_with_entities.md).
+
 ---
 
 ## Customer Repository
