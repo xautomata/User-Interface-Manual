@@ -17,10 +17,11 @@ User accounts define:
 
 Users are managed from:
 
-```
-
-Administration → Users
-
+```mermaid
+flowchart LR
+A["Administration"]
+U["Users"]
+A --> U
 ```
 
 The page opens with a **pre-filter dialog** that allows administrators to limit the set of users displayed in the table.

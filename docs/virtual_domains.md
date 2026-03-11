@@ -12,8 +12,11 @@ They provide an additional logical boundary that helps structure access and oper
 
 Virtual Domains are managed from:
 
-```text
-Administration → Virtual Domains
+```mermaid
+flowchart LR
+A["Administration"]
+V["Virtual Domains"]
+A --> V
 ```
 
 Unlike many other entities in the Data Manager, the **Virtual Domains** section does **not** open with a pre-filter dialog.
