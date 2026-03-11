@@ -81,14 +81,14 @@ The automation pipeline can be summarized as follows:
 ```mermaid
 flowchart TD
 
-MS["Monitoring Systems (Zabbix, Nagios, CheckMK)"]
+MS["Monitoring Systems<br>(Zabbix, Nagios, CheckMK)"]
 M["Metrics"]
-AE["Automata Engine (Finite State Machines)"]
+AE["Automata Engine<br>(Finite State Machines)"]
 ST["State Transitions"]
 D["Dispatchers"]
 MSG["Messages"]
 NP["Notification Providers"]
-EXT["External Systems (Ticketing, Email, Scripts, APIs)"]
+EXT["External Systems<br>(Ticketing, Email, Scripts, APIs)"]
 
 MS --> M
 M --> AE
@@ -141,11 +141,11 @@ XAUTOMATA can import billing data from supported cloud providers.
 ```mermaid
 flowchart TD
 
-CP["Cloud Providers (Azure, AWS, Google)"]
+CP["Cloud Providers<br>(Azure, AWS, Google)"]
 CCR["Cloud Cost Registration"]
 IBD["Imported Billing Data"]
 CCW["Cloud Cost Widgets"]
-CV["Cost Views (custom cost hierarchy)"]
+CV["Cost Views<br>(custom cost hierarchy)"]
 AAW["Analytical Accounting Widgets"]
 
 CP --> CCR
@@ -199,8 +199,8 @@ flowchart TD
 IS[Infrastructure Systems]
 P[Probes collect metrics]
 M[Metrics stored and processed]
-W[Widgets visualize operational data]
-D[Dashboards provide monitoring views]
+W[Widgets visualize<br>operational data]
+D[Dashboards provide<br>monitoring views]
 
 IS --> P
 P --> M
@@ -215,8 +215,8 @@ flowchart TD
 
 CP[Cloud Providers]
 BD[Billing data imported]
-CCW[Cloud Cost widgets analyze raw data]
-CV[Cost Views reorganize costs]
+CCW[Cloud Cost widgets<br>analyze raw data]
+CV[Cost Views<br>reorganize costs]
 AAW[Analytical Accounting widgets]
 
 CP --> BD

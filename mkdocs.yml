@@ -103,6 +103,7 @@ nav:
 
   - Dashboards:
       - Dashboard Overview: dashboards_overview.md
+      - Dashboard Management: dashboard_management.md
       - IT Infrastructure: it_infrastructure.md
       - Network: network_dashboard.md
       - Cloud Cost: cloudcost_dashboard.md
@@ -140,6 +141,7 @@ nav:
 
   - Administration:
       - Overview: administration_overview.md
+      - Access Control: access_control.md
       - Users: users.md
       - Virtual Domains: virtual_domains.md
       - Probes: probes.md

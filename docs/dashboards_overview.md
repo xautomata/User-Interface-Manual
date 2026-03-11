@@ -23,18 +23,27 @@ Each widget in the dashboard has its own:
 
 This allows dashboards to be configured to match different operational needs.
 
-## Dashboard Filters
+## Dashboard Types
 
-Dashboards may provide shared filters that affect multiple widgets at the same time.
+Dashboards can be defined with different types.
 
-Typical examples include:
+The platform distinguishes between:
 
-- customer
-- date range
-- reference month
-- operational scope
+- **Global dashboards**, designed to be reused across multiple users or operational contexts.
+- **Personal dashboards**, associated with a specific user.
 
-Widgets can also define their own local filters and selectors, depending on their configuration.
+This distinction allows the platform to support both standardized monitoring views and user-specific workspaces.
+
+## Dashboard Scope
+
+Dashboards also define a **scope**, which determines the operational context where they apply.
+
+Available scopes include:
+
+- **Customer**
+- **Virtual Domain**
+
+This allows dashboards to be tailored to different organizational or infrastructure contexts.
 
 ## Widgets in Dashboards
 

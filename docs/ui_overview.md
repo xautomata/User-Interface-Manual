@@ -4,9 +4,9 @@ The XAUTOMATA user interface provides tools to configure, monitor, and analyze c
 
 The interface is organized into three main functional areas:
 
-- Data Manager
-- Dashboards
-- Administration
+- [Data Manager](data_manager_overview.md)
+- [Dashboards](dashboards_overview.md)
+- [Administration](administration_overview.md)
 
 These areas allow users to configure the system model, collect and organize operational data, and analyze it through visual dashboards.
 

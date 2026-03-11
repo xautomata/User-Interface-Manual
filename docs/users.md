@@ -122,24 +122,59 @@ The dialog also displays:
 
 ## Access Control (ACL)
 
-Each user is assigned an **ACL configuration** that defines the permissions available within the platform.
+Each user is assigned an **Access Control List (ACL)** configuration that determines which actions they can perform within the platform.
 
-ACL permissions are organized into logical domains such as:
+Permissions are defined using **permission scopes**, which combine a functional domain with an operation.
 
-- Main
-- Tracking
-- Admin
+Examples of permission scopes include:
 
-Within each domain, permissions typically include:
+```
+main.read
+main.create
+tracking.update
+admin.delete
+```
 
-- read
-- create
-- update
-- delete
+These scopes define whether a user can perform operations such as reading, creating, updating, or deleting resources in different areas of the system.
 
-A user may also have an **ACL override**, which applies a predefined permission profile.
+The platform groups permissions into three main domains:
 
-The detailed access control model is described in the **Access Control** section of this documentation.
+| Domain       | Description                                          |
+| ------------ | ---------------------------------------------------- |
+| **Main**     | Core platform entities and general operations        |
+| **Tracking** | Monitoring and tracking related resources            |
+| **Admin**    | Administrative configuration and management features |
+
+Within each domain, the following operations may be granted:
+
+* read
+* create
+* update
+* delete
+
+Administrative permissions may also include the special **super** capability, which grants elevated administrative privileges.
+
+---
+
+### ACL Overrides
+
+In addition to the base permission scopes, a user may be assigned an **ACL override profile**.
+
+An ACL override applies predefined permission rules that may:
+
+* restrict specific operations
+* disable or hide fields in forms
+* apply default values to certain fields
+
+Overrides allow administrators to enforce more specific permission policies without modifying the user's base permission configuration.
+
+ACL overrides are managed in the **Super Admin → ACL Overrides** section.
+
+---
+
+### Access Control Model
+
+The complete access control model, including permission evaluation and override behavior, is described in the [**Access Control**](access_control.md) section of this documentation.
 
 ---
 

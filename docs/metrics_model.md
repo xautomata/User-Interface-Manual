@@ -15,9 +15,9 @@ Monitoring data follows a hierarchical structure:
 ```mermaid
 flowchart TD
 
-O["Object (monitored resource)"]
-MT["Metric Type (measurement definition)"]
-M["Metrics (time-series values)"]
+O["Object<br>(monitored resource)"]
+MT["Metric Type<br>(measurement definition)"]
+M["Metrics<br>(time-series values)"]
 
 O --> MT
 MT --> M

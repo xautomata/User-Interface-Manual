@@ -14,14 +14,14 @@ The monitoring system follows a structured lifecycle.
 flowchart TD
 
 INF["Infrastructure"]
-P["Probes collect data"]
-M["Metrics are collected"]
-E["Events and anomalies are detected"]
-A["Automata evaluate system state"]
-ST["State transitions trigger dispatchers"]
-MSG["Messages are generated"]
-NP["Notification providers deliver actions"]
-V["Dashboards and widgets visualize results"]
+P["Probes<br>collect data"]
+M["Metrics<br>are collected"]
+E["Events and anomalies<br>are detected"]
+A["Automata<br>evaluate system state"]
+ST["State transitions<br>trigger dispatchers"]
+MSG["Messages<br>are generated"]
+NP["Notification providers<br>deliver actions"]
+V["Dashboards and widgets<br>visualize results"]
 
 INF --> P
 P --> M
