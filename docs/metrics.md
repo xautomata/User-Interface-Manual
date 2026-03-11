@@ -18,9 +18,9 @@ The relationship between the entities is therefore:
 ```mermaid
 flowchart TD
 
-O["Object (monitored resource)"]
-MT["Metric Type (measurement definition)"]
-M["Metric (time-series values)"]
+O["Object<br>(monitored resource)"]
+MT["Metric Type<br>(measurement definition)"]
+M["Metric<br>(time-series values)"]
 
 O --> MT
 MT --> M

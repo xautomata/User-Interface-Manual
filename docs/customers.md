@@ -9,7 +9,7 @@ Within the platform hierarchy, a customer may contain multiple **Sites**, **Cont
 ```mermaid
 flowchart TD
 
-C["Customer (organization monitored by XAUTOMATA)"]
+C["Customer<br>(organization monitored<br>by XAUTOMATA)"]
 
 S["Sites"]
 CT["Contacts"]

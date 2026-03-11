@@ -43,12 +43,12 @@ Typical hierarchy levels include:
 ```mermaid
 flowchart TD
 
-C["Customer (organization)"]
-S["Site (location or environment)"]
-G["Group (logical infrastructure group)"]
-O["Object (monitored resource)"]
-MT["Metric Type (measurement definition)"]
-M["Metric (time-series data)"]
+C["Customer<br>(organization)"]
+S["Site<br>(location or environment)"]
+G["Group<br>(logical infrastructure group)"]
+O["Object<br>(monitored resource)"]
+MT["Metric Type<br>(measurement definition)"]
+M["Metric<br>(time-series data)"]
 
 C --> S
 S --> G
