@@ -55,34 +55,124 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-nav:
-  - index.md
-  - Access: Login.md
-#  - Main Menu: main.md
-#  - Side Menu:
-#      - Asset: asset.md
-#      - Disptcher: disptcher.md
-#      - Admin: admin.md
-  - Dashboards Description:
-      - Dashboard Overview: overview.md
-      - IT Infrastructure: it_infrastructure.md
-      - Network: network_dashboard.md
-      - Cloud Cost: cloudcost_dashboard.md
-#      - Dashboard4: dash4.md
-#  - Tree View: tree.md
-  - Widgets Description:
-      - Widget Overview: widget_overview.md
-#      - Analytical Accounting: wid1.md
-      - Cloud Cost: widget_cloudcost.md
-      - IT Analytics: widget_it_analytics.md
-#      - IT Anomalies: wid4.md
-      - IT Infrastructure: widget_it_infrastructure.md
-#      - MCD Dedicated: wid4.md
-#      - Net Flow: wid4.md
-      - Network: widget_network.md
-      - Network Analytics: widget_network_analytics.md
-#      - support Service KPI: wid4.md
 
+nav:
+
+  - Home: index.md
+
+  # -------------------------------------------------------
+  # SECTION 1 — GETTING STARTED
+  # Login and first navigation.
+  # Source: Login.md (from colleague), overview.md (from colleague)
+  # -------------------------------------------------------
+  - Getting Started:
+      - Login: getting_started/login.md
+      - Navigating the Interface: getting_started/navigation.md
+
+  # -------------------------------------------------------
+  # SECTION 2 — DASHBOARDS
+  # How to access, use and manage dashboards.
+  # Source: overview.md (from colleague, covers dashboard home)
+  #         dashboard management pages (written in this session)
+  # -------------------------------------------------------
+  - Dashboards:
+      - Overview: dashboards/index.md
+      - Dashboard Management: dashboards/management.md
+      - IT Infrastructure: dashboards/it_infrastructure.md
+      - Network: dashboards/network.md
+      - Cloud Cost: dashboards/cloud_cost.md
+
+  # -------------------------------------------------------
+  # SECTION 3 — WIDGETS
+  # Reference guide for all available widgets.
+  # Source: widget_*.md files from colleague — kept as-is,
+  # reorganized into subfolders by functional domain.
+  # -------------------------------------------------------
+  - Widgets:
+      - Widget Overview: widgets/overview.md
+
+      - Infrastructure Monitoring:
+          - IT Infrastructure: widgets/it_infrastructure.md
+          - IT Analytics: widgets/it_analytics.md
+          - IT Anomalies: widgets/it_anomalies.md
+
+      - Network Governance:
+          - Network: widgets/network.md
+          - Network Analytics: widgets/network_analytics.md
+          - Net Flow: widgets/net_flow.md
+
+      - Service Management:
+          - Support Service KPI: widgets/support_service_kpi.md
+
+      - Cost Governance:
+          - Cloud Cost: widgets/cloud_cost.md
+          - Analytical Accounting: widgets/analytical_accounting.md
+
+      - Dedicated Widgets:
+          - MCD Dedicated: widgets/mcd_dedicated.md
+          - MCD Massive Reboot: widgets/mcd_reboot.md
+          - MCD Rebuild VM: widgets/mcd_rebuild_vm.md
+          - MCD Massive Downtime: widgets/mcd_downtime.md
+
+  # -------------------------------------------------------
+  # SECTION 4 — DATA MANAGER
+  # Configuration of the monitored infrastructure entities.
+  # -------------------------------------------------------
+  - Data Manager:
+      - Overview: data_manager/overview.md
+      - Working with Entities: data_manager/working_with_entities.md
+      - Tree Hierarchy View: data_manager/tree_hierarchy_view.md
+
+      - Customers:
+          - Customers: data_manager/customers/customers.md
+          - Sites: data_manager/customers/sites.md
+          - Contacts: data_manager/customers/contacts.md
+
+      - Objects Repository:
+          - Groups: data_manager/objects/groups.md
+          - Objects: data_manager/objects/objects.md
+          - Metric Types: data_manager/objects/metric_types.md
+          - Metrics: data_manager/objects/metrics.md
+          - Services: data_manager/objects/services.md
+
+      - Monitoring Operations:
+          - Calendars: data_manager/monitoring/calendars.md
+          - Downtimes: data_manager/monitoring/downtimes.md
+          - Dispatchers: data_manager/monitoring/dispatchers.md
+
+  # -------------------------------------------------------
+  # SECTION 5 — COST MANAGEMENT
+  # Cloud cost registration and cost views.
+  # -------------------------------------------------------
+  - Cost Management:
+      - Overview: cost_management/overview.md
+      - Cloud Cost Registration: cost_management/cloud_cost_registration.md
+      - Cost Views: cost_management/cost_views.md
+
+  # -------------------------------------------------------
+  # SECTION 6 — ADMINISTRATION
+  # Platform configuration for administrators.
+  # -------------------------------------------------------
+  - Administration:
+      - Overview: administration/overview.md
+      - Access Control: administration/access_control.md
+      - Users: administration/users.md
+      - Virtual Domains: administration/virtual_domains.md
+      - Probes: administration/probes.md
+      - Probe Types: administration/probe_types.md
+      - Messages: administration/messages.md
+      - Notification Providers: administration/notification_providers.md
+      - Notification Provider Types: administration/notification_provider_types.md
+
+  # -------------------------------------------------------
+  # SECTION 7 — SUPER ADMIN
+  # Advanced platform management. Restricted access.
+  # -------------------------------------------------------
+  - Super Admin:
+      - Widgets: super_admin/widgets.md
+      - Widget Groups: super_admin/widget_groups.md
+      - Dashboards: super_admin/dashboards.md
+      - ACL Overrides: super_admin/acl_overrides.md
 
 copyright:
   All rights reserved
