@@ -63,6 +63,7 @@ These rules are established and must be followed consistently:
 xautomata-user-manual/
 ├── mkdocs.yml                  # MkDocs navigation and config
 ├── CLAUDE.md                   # This file
+├── qa.md                       # ✅ Open questions log for domain experts
 └── docs/
     ├── index.md                # Manual home page
     ├── images/                 # All screenshots and images
@@ -71,17 +72,42 @@ xautomata-user-manual/
     │   │   ├── cloud_cost/
     │   │   ├── it_infrastructure/
     │   │   └── network/
+    │   ├── data_manager/
+    │   │   ├── customers/
+    │   │   ├── contacts/
+    │   │   ├── sites/
+    │   │   ├── groups/
+    │   │   ├── objects/
+    │   │   ├── metric_types/
+    │   │   ├── metrics/
+    │   │   ├── services/
+    │   │   └── tree_hierarchy/
+    │   ├── tracking/
+    │   │   ├── calendars/
+    │   │   ├── downtimes/
+    │   │   └── dispatchers/
+    │   ├── administration/
+    │   │   ├── users/
+    │   │   ├── virtual_domains/
+    │   │   ├── probes/
+    │   │   ├── probe_types/
+    │   │   ├── messages/
+    │   │   ├── notification_providers/
+    │   │   └── notification_provider_types/
+    │   ├── cost_management/
+    │   │   ├── cloud_cost_registration/
+    │   │   └── cost_views/
     │   └── widgets/
     ├── getting_started/
-    │   ├── login.md
-    │   └── navigation.md
-    ├── dashboards/             # ✅ COMPLETE
+    │   ├── login.md                        # ✅ written
+    │   └── navigation.md                   # ✅ written
+    ├── dashboards/                         # ✅ COMPLETE
     │   ├── index.md
     │   ├── management.md
     │   ├── it_infrastructure.md
     │   ├── network.md
     │   └── cloud_cost.md
-    ├── widgets/                # ✅ COMPLETE (from colleague)
+    ├── widgets/                            # ✅ COMPLETE (from colleague)
     │   ├── overview.md
     │   ├── it_infrastructure.md
     │   ├── it_analytics.md
@@ -96,17 +122,64 @@ xautomata-user-manual/
     │   ├── mcd_reboot.md
     │   ├── mcd_rebuild_vm.md
     │   └── mcd_downtime.md
-    ├── data_manager/           # 🚧 STUB — to be written
-    │   ├── overview.md
-    │   ├── working_with_entities.md
-    │   ├── tree_hierarchy_view.md
+    ├── data_manager/                       # ✅ COMPLETE
+    │   ├── overview.md                     # ✅ written
+    │   ├── working_with_entities.md        # ✅ written
+    │   ├── tree_hierarchy_view.md          # ✅ written
     │   ├── customers/
+    │   │   ├── customers.md                # ✅ written
+    │   │   ├── contacts.md                 # ✅ written
+    │   │   └── sites.md                    # ✅ written
     │   ├── objects/
-    │   └── monitoring/
-    ├── cost_management/        # 🚧 STUB — to be written
-    ├── administration/         # 🚧 STUB — to be written
-    └── super_admin/            # 🚧 STUB — to be written
+    │   │   ├── groups.md                   # ✅ written
+    │   │   ├── objects.md                  # ✅ written
+    │   │   ├── metric_types.md             # ✅ written
+    │   │   ├── metrics.md                  # ✅ written
+    │   │   └── services.md                 # ✅ written
+    │   └── tracking/
+    │       ├── calendars.md                # ✅ written
+    │       ├── downtimes.md                # ✅ written
+    │       └── dispatchers.md              # ✅ written
+    ├── cost_management/                    # ✅ COMPLETE
+    │   ├── overview.md                     # ✅ written
+    │   ├── cloud_cost_registration.md      # ✅ written
+    │   └── cost_views.md                   # ✅ written (Nodes Tree; Azure Tags coming soon)
+    ├── administration/                     # ✅ COMPLETE
+    │   ├── overview.md                     # ✅ written
+    │   ├── access_control.md               # ✅ written
+    │   ├── users.md                        # ✅ written
+    │   ├── virtual_domains.md              # ✅ written
+    │   ├── probes.md                       # ✅ written
+    │   ├── probe_types.md                  # ✅ written
+    │   ├── messages.md                     # ✅ written
+    │   ├── notification_providers.md       # ✅ written
+    │   └── notification_provider_types.md  # ✅ written
+    └── super_admin/                        # ✅ COMPLETE
+        ├── widgets.md                      # ✅ written
+        ├── widget_groups.md                # ✅ written
+        ├── dashboards.md                   # ✅ written
+        └── acl_overrides.md                # ✅ written
 ```
+
+---
+
+## Open questions
+
+A `qa.md` file tracks questions that emerged during writing and need verification by a domain expert.
+Always check `qa.md` before finalizing pages related to:
+
+- Access control and user permissions (Q1)
+- Cost Views — Azure Tags origin (Q2)
+- Cost Views — child node resource scoping (Q3)
+
+---
+
+## Known limitations / pending items
+
+- **Screenshots**: all pages use placeholder image paths. Screenshots need to be added by the user following the path convention.
+- **Cost Views — Azure Tags type**: the configuration interface is `Coming soon` in the platform. The page documents the Nodes Tree type only.
+- **navigation.md**: Fig.2 (top bar) has a real screenshot available from session. Fig.1 and Fig.3 are still pending.
+- **mkdocs.yml**: the nav structure may need updating to reflect the actual folder structure used (e.g. `data_manager/tracking/` vs `tracking/` at root level).
 
 ---
 
@@ -140,10 +213,9 @@ When writing a new page:
 
 ## Co-authors
 
-- **Colleague**: wrote the original widget pages (`widgets/`) and initial dashboard pages.
-  His style is the reference — keep it consistent.
-- **This session**: wrote `dashboards/index.md` and `dashboards/management.md`,
-  integrating screenshots from the live platform.
+- **Colleague**: wrote the original widget pages (`widgets/`), initial dashboard pages, `working_with_entities.md`, and `tree_hierarchy_view.md`. His style is the reference — keep it consistent.
+- **Session 1**: wrote `dashboards/index.md`, `dashboards/management.md`.
+- **Session 2**: wrote all remaining pages across `data_manager/`, `cost_management/`, `administration/`, `super_admin/`, `getting_started/navigation.md`.
 
 ---
 
