@@ -10,10 +10,12 @@ These widgets are useful for exploring costs through a customized accounting mod
 ## Cost Nodes Tree
 
 Shows the entire cost node tree for the selected view.
-![cost_nodes_tree](../images/widgets_thumbnails/cost_nodes_tree.png)
+<!-- ![cost_nodes_tree](../images/widgets_thumbnails/cost_nodes_tree.png) -->
+![cost_nodes_tree](../images/provisional/cost_nodes_tree.png)
 
 ## Cost Resources by Tag
 
 Shows all cost resources for the selected view, in the reference month, filterable by cost tags.
 
-![cost_resources_by_tag](../images/widgets_thumbnails/cost_resources_by_tag.png)
+<!-- ![cost_resources_by_tag](../images/widgets_thumbnails/cost_resources_by_tag.png) -->
+![cost_resources_by_tag](../images/provisional/cost_resources_by_tag.png)

@@ -1,3 +1,5 @@
 .idea
 .venv
 *.pptx
+docs_to_merge
+reference

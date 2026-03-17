@@ -48,3 +48,4 @@ By clicking on a specific object, a third view opens where the trend of the
 sanity over time for the selected object is displayed.
 
 ![it_sanity_weekly_distribution](../images/widgets/it_analytics/it_sanity_weekly_distribution_4.jpg)
+

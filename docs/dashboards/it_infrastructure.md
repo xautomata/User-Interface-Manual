@@ -19,5 +19,5 @@ The widgets available on this dashboard are as follows:
 2. [Resource Groups Status](../widgets/it_infrastructure.md#resource-groups-status)
 3. [Objects Availability Percentage Monthly Average](../widgets/it_infrastructure.md#objects-availability-percentage-monthly-average)
 4. [IT Objects Weekly Availability Distribution](../widgets/it_infrastructure.md#it-objects-weekly-availability-distribution)
-5. [IT Sanity Weekly Distribution](widget_it_analytics.md#it-sanity-weekly-distribution)
+5. [IT Sanity Weekly Distribution](../widgets/it_analytics.md#it-sanity-weekly-distribution)
 6. [IT Resources Status](../widgets/it_infrastructure.md#it-resources-status)

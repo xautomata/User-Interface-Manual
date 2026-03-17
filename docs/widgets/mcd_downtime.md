@@ -4,4 +4,5 @@
 
 Planning and monitoring of single massive downtime.
 
-![downtime_massive](../images/widgets_thumbnails/downtime_massive.png)
+<!-- ![downtime_massive](../images/widgets_thumbnails/downtime_massive.png) -->
+![downtime_massive](../images/placeholder.png)
