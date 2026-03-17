@@ -1,5 +1,4 @@
 # Sites
-# Sites
 
 The **Sites** section manages the physical or logical locations associated with a customer.
 Use it to organize monitored infrastructure by location and to associate groups and contacts with each site.

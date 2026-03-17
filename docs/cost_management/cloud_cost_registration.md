@@ -1,5 +1,4 @@
 # Cloud Cost Registration
-# Cloud Cost Registration
 
 The **Cloud Cost Registration** section is where administrators configure the connections between XAUTOMATA and supported cloud providers.
 Once configured, the platform periodically retrieves billing data from the provider APIs and makes it available for analysis in dashboards and widgets.

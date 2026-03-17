@@ -1,5 +1,4 @@
 # Contacts
-# Contacts
 
 The **Contacts** section manages the people associated with customers and sites monitored by XAUTOMATA.
 Use it to maintain a directory of technical, operational, and administrative contacts for each organization.

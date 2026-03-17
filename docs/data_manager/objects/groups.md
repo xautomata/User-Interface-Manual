@@ -1,5 +1,4 @@
 # Groups
-# Groups
 
 The **Groups** section organizes monitored resources into logical units associated with a site.
 A group can contain objects and other child groups, forming the infrastructure hierarchy that feeds dashboards and monitoring operations.

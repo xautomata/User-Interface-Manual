@@ -1,5 +1,4 @@
 # Calendars
-# Calendars
 
 The **Calendars** section defines time schedules used to control when monitoring operations and automation actions are active.
 Calendars represent business hours, maintenance windows, or any other time constraint that the platform should respect when triggering alerts and automated actions.

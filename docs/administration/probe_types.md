@@ -1,5 +1,4 @@
 # Probe Types
-# Probe Types
 
 The **Probe Types** section lists the monitoring integration technologies available in XAUTOMATA.
 Each probe type defines how a monitoring agent collects data — for example a system monitoring agent, a network probe, or a cloud integration.

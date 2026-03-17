@@ -1,5 +1,4 @@
 # Metrics
-# Metrics
 
 The **Metrics** section gives access to the time-series data collected from monitored resources.
 Each metric record represents the actual measured values produced by a probe for a given metric type — for example, the CPU usage readings recorded every five minutes from a specific server.

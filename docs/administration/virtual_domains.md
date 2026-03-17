@@ -1,5 +1,4 @@
 # Virtual Domains
-# Virtual Domains
 
 The **Virtual Domains** section manages logical partitions used to organize users, groups, and probes within XAUTOMATA.
 Virtual domains act as administrative boundaries — useful in multi-customer or multi-environment deployments where different scopes need to be clearly separated.
