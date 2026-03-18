@@ -142,4 +142,5 @@ When configuring an Analytical Accounting widget, you select which Cost View it 
 
 !!! note
     The **Azure Tags** Cost View type is currently under development. Views of this type appear in the table but their configuration interface shows `Coming soon`.
-    For questions about tag origins, see [Q2 in the Q&A log](../qa.md).
+
+    Tags are imported automatically from the cloud provider during billing data ingestion — XAUTOMATA downloads them directly from the provider API. No manual configuration is required on the XAUTOMATA side to make them available. The tags you see reflect the tagging conventions used in your cloud environment at the provider level.

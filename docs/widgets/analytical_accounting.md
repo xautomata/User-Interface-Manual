@@ -56,5 +56,4 @@ This allows queries such as:
 Enable **Save Filters** to persist the current filter configuration across sessions.
 
 !!! note
-    Tags are sourced from the cloud provider billing data. Their availability depends on the tagging conventions used in your cloud environment.
-    For questions about tag origins, see [Q2 in the Q&A log](../../qa.md).
+    Tags are imported automatically from the cloud provider during billing data ingestion — they reflect the tagging conventions used in your cloud environment. To make a tag available as a filter, it must be present in the provider billing data for the selected reference month.

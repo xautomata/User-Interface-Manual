@@ -52,10 +52,17 @@ Where do these tags originate? Are they Azure resource tags defined directly in 
 Does the same tag mechanism apply to AWS and Google Cloud, or is it Azure-specific?
 
 **Answer:**
-*(pending)*
+Confirmed. Tags work in two modes:
+
+1. **Automatic (current implementation)** — XAUTOMATA downloads tags directly from the cloud provider during billing data ingestion. The tag table is populated automatically. The frontend only reads the tags; no manual action is required on the XAUTOMATA side.
+
+2. **Manual (not yet implemented)** — Tags would be defined directly inside XAUTOMATA by the administrator. This feature is not yet available.
+
+The **Azure Tags** Cost View type (tag-view) is the interface that would allow working with these tags, but its configuration page currently shows `Coming soon` — confirming that the manual tag creation and the tag-view configuration are the missing part.
 
 **Action:**
-- Add a note to `cost_views.md` explaining the origin of tags and how customers should manage them in the cloud provider console.
+- ✅ Updated `cost_views.md` — clarified tag origin in the Azure Tags section.
+- ✅ Q2 closed.
 
 ---
 
