@@ -86,16 +86,28 @@ Fig.3 - User detail dialog (screenshot pending)
 
 Each user is assigned an **ACL configuration** that determines which actions they can perform in the platform.
 
-Permissions are organized into three domains:
+The ACL panel in the user dialog shows three columns — **Main**, **Tracking**, **Admin** — each with toggles for **read**, **create**, **update**, **delete**.
+
+![ACL configuration panel](../images/administration/users/users_acl.png)
+/// caption
+Fig.3b - ACL configuration panel — three domains with per-operation toggles
+///
 
 | Domain | Description |
 |---|---|
 | Main | Core platform entities and general operations |
-| Tracking | Monitoring and tracking resources |
-| Admin | Administrative configuration and management |
+| Tracking | Calendars, downtimes, and dispatchers |
+| Admin | Administration section — users, probes, notification providers, and platform settings |
 
 Within each domain, the following operations can be granted: **read**, **create**, **update**, **delete**.
-The **Admin** domain also includes the special **super** operation, which grants full administrative access.
+
+### Customer Admin flag
+
+At the bottom of the ACL panel, the **CUSTOMER ADMIN** button sets a special flag that configures the user as a **Tenant Admin** — a customer-scoped administrator.
+
+A Tenant Admin can access certain administrative functions (such as managing users) for the specific customers linked to their account, without having full platform administration access. They do not need Admin → Read to be enabled.
+
+To configure a Tenant Admin, enable the Customer Admin flag and link the user to the relevant customers in the Connections View.
 
 ### ACL Overrides
 
@@ -103,7 +115,7 @@ In addition to the base permissions, a user can be assigned an **ACL Override** 
 An override can restrict specific operations, hide form fields, or apply default values — without changing the user's base permission configuration.
 
 ACL Overrides are managed in **Super Admin → ACL Overrides**.
-For a full description of the permission model, see [Access Control](access_control.md).
+For a full description of the permission model and all user types, see [Access Control](access_control.md).
 
 ---
 
@@ -124,8 +136,11 @@ This view shows the entities linked to the user:
 Use this view to control what data and dashboards a user can see after login.
 
 !!! warning
-    A user with no connections may see an empty interface after login.
-    Always assign at least one dashboard and the relevant customers or groups.
+    A user with **no customer connections** does not see an empty interface — instead they acquire **Super User** visibility and can see **all customers** in the platform. This behavior is automatic and not configurable via a toggle.
+    Always link users to the appropriate customers unless you intentionally want them to have full cross-customer visibility.
+
+!!! note
+    A user with no connections of any type (no dashboards, no groups, no customers) will see a largely empty interface. Always assign at minimum one dashboard and the relevant customers.
 
 ![User connections view](../images/administration/users/users_connections.png)
 /// caption

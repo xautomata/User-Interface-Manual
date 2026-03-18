@@ -29,52 +29,16 @@ Does the same behavior apply to **Tenant Admin** users with no customer connecti
 Is this "no filter = see all" behavior intentional and documented, or is it a known edge case?
 
 **Answer:**
-*(pending)*
+Confirmed. The behavior is **intentional**:
+- A user with **no customer connections** is treated as a **Super User** by the backend, which returns `super=true` under the `admin` key. This grants visibility over all customers.
+- This applies regardless of admin level — any user (including Tenant Admin profiles) with no customer links gets this visibility automatically.
+- The Super User status is **not a toggle** — it is derived automatically from the absence of customer connections. It cannot be set directly in the interface.
+- Linking even one customer removes the super visibility and restricts scope to that customer.
 
 **Action:**
-- Add a note to `users.md` (Connections View section) explaining the scope behavior for users with no customer connections.
-- If it applies to Tenant Admin as well, document it clearly as a warning.
-- If it is unintentional, flag it as a known limitation.
-
----
-
-# Q&A — Open Questions for Domain Experts
-
-This file tracks questions that emerged during documentation writing and need verification by a domain expert.
-Answers will be used to refine the operational manual.
-
----
-
-## Format
-
-Each entry includes:
-- **Context** — which page or topic the question relates to
-- **Question** — what needs to be clarified
-- **Answer** — filled in after expert review
-- **Action** — what changes in the manual once answered
-
----
-
-## Open Questions
-
----
-
-### Q1 — Users without customer connections: scope visibility
-
-**Context:** `administration/users.md`, Access Control model
-
-**Question:**
-A Super Admin user with no customers linked in the Connections View appears to see **all customers** in the platform — rather than none.
-Does the same behavior apply to **Tenant Admin** users with no customer connections?
-Is this "no filter = see all" behavior intentional and documented, or is it a known edge case?
-
-**Answer:**
-*(pending)*
-
-**Action:**
-- Add a note to `users.md` (Connections View section) explaining the scope behavior for users with no customer connections.
-- If it applies to Tenant Admin as well, document it clearly as a warning.
-- If it is unintentional, flag it as a known limitation.
+- ✅ Updated `access_control.md` — rewrote User Types section with accurate descriptions of Operator, Admin, Tenant Admin, and Super User.
+- ✅ Updated `users.md` — added Customer Admin flag description in ACL section; replaced the Connections View warning with accurate Super User behavior explanation.
+- ✅ Q1 closed.
 
 ---
 

@@ -60,13 +60,42 @@ The interface presents the available scopes as toggles or checkboxes grouped by 
 
 ## User Types
 
-The platform recognizes three administrative levels, defined by the permissions assigned:
+The platform recognizes four user types, determined by the combination of ACL permissions and connections assigned.
 
-| Type | Permissions | Typical use |
-|---|---|---|
-| **Operator** | Main read (and optionally tracking read/update) | Daily monitoring and analysis |
-| **Tenant Admin** | Admin domain (partial) — `admin.customer` scope | Customer-scoped administration |
-| **Super Admin / Super User** | `admin.super` — all domains, all operations | Full platform administration |
+### Operator
+
+A standard user with no administrative access. Can browse monitoring data and use dashboards according to their Main and Tracking permissions.
+
+Typical configuration:
+- Main: read
+- Tracking: read (optionally create, update, delete for downtimes and dispatchers)
+- No Admin permissions
+
+### Admin
+
+Any user who has at least **Admin → Read** enabled. Gains access to the Administration section — users, probes, notification providers, and platform settings.
+
+### Tenant Admin
+
+A user who acts as a **customer-scoped administrator** — they can manage certain administrative resources (such as users) for the customers they are responsible for, but do not have full platform administration access.
+
+A Tenant Admin does **not** need Admin → Read to be enabled. Instead, the **Customer Admin** flag is set at the bottom of the ACL configuration panel.
+
+To configure a Tenant Admin:
+1. Open the user record.
+2. In the ACL section, enable the desired Main and Tracking permissions as needed.
+3. Click the **CUSTOMER ADMIN** button at the bottom of the ACL panel to enable the flag.
+4. Click **SAVE CHANGES**.
+5. In the Connections View, link the user to the specific customers they administer.
+
+### Super User
+
+A user with **no customers linked** in the Connections View. The backend automatically sets a `super=true` flag for these users, granting visibility over **all customers** in the platform.
+
+!!! warning
+    The Super User status is derived automatically — it is not a toggle in the interface.
+    A user becomes a Super User when they have no customer connections. Linking even one customer removes the super visibility and restricts scope to that customer only.
+    Always verify the Connections View when troubleshooting unexpected data visibility for administrative accounts.
 
 ---
 
@@ -115,7 +144,7 @@ This allows administrators to prevent modification of sensitive fields (for exam
 
 ## Practical Examples
 
-**Standard operator** — can browse monitoring data but cannot modify infrastructure configuration:
+**Standard operator** — can browse monitoring data, cannot modify configuration:
 - Main: read
 - Tracking: read
 
@@ -123,10 +152,22 @@ This allows administrators to prevent modification of sensitive fields (for exam
 - Main: read
 - Tracking: read, create, update, delete
 
-**Customer administrator** — can manage their own environment:
+**Admin** — can access Administration section:
 - Main: read, create, update, delete
 - Tracking: read, create, update, delete
-- Admin: read, update (with `admin.customer` scope)
+- Admin: read (minimum)
+
+**Tenant Admin** — administers specific customers without full platform access:
+- Main: read, create, update, delete
+- Tracking: read, create, update, delete
+- Customer Admin flag: ✓ enabled
+- Connections: linked to the specific customers they manage
+
+**Super User** — full visibility over all customers, no customer links:
+- Main: read, create, update, delete
+- Tracking: read, create, update, delete
+- Admin: read, create, update, delete
+- Connections → Customers: none (triggers `super=true` automatically)
 
 **Read-only user with field restrictions** — standard read permissions plus an ACL override that hides sensitive configuration fields from all forms.
 
