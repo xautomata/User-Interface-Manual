@@ -108,11 +108,11 @@ nav:
           - Cloud Cost: widgets/cloud_cost.md
           - Analytical Accounting: widgets/analytical_accounting.md
 
-      - Dedicated Widgets:
-          - MCD Dedicated: widgets/mcd_dedicated.md
-          - MCD Massive Reboot: widgets/mcd_reboot.md
-          - MCD Rebuild VM: widgets/mcd_rebuild_vm.md
-          - MCD Massive Downtime: widgets/mcd_downtime.md
+      # - Dedicated Widgets:
+      #     - MCD Dedicated: widgets/mcd_dedicated.md
+      #     - MCD Massive Reboot: widgets/mcd_reboot.md
+      #     - MCD Rebuild VM: widgets/mcd_rebuild_vm.md
+      #     - MCD Massive Downtime: widgets/mcd_downtime.md
 
   # -------------------------------------------------------
   # SECTION 4 — DATA MANAGER

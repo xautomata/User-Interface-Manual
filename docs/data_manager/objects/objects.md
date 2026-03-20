@@ -21,7 +21,7 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 By default, the pre-filter is set to show only **active** objects. Leave other fields empty and click **APPLY** to load all active objects.
 
-![Objects pre-filter](../images/data_manager/objects/objects_prefilter.png)
+![Objects pre-filter](../../images/data_manager/objects/objects_prefilter.png)
 /// caption
 Fig.1 - Objects pre-filter dialog (screenshot pending)
 ///
@@ -40,7 +40,7 @@ Typical columns include:
 - Profile
 - Status
 
-![Objects table](../images/data_manager/objects/objects_table.png)
+![Objects table](../../images/data_manager/objects/objects_table.png)
 /// caption
 Fig.2 - Objects results table (screenshot pending)
 ///
@@ -95,7 +95,7 @@ From this dialog you can:
     Set **Status** to **Maintenance** when the resource is undergoing planned work.
     This suspends alerts without fully disabling the object.
 
-![Object detail dialog](../images/data_manager/objects/objects_crud.png)
+![Object detail dialog](../../images/data_manager/objects/objects_crud.png)
 /// caption
 Fig.3 - Object detail dialog (screenshot pending)
 ///
@@ -118,9 +118,9 @@ The hierarchy displays the monitoring entities associated with the object:
 
 Use this view to inspect the monitoring data collected from the object and to apply operational actions at any level of the hierarchy.
 
-For a detailed explanation of how to use this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
+For a detailed explanation of how to use this view, see [Tree Hierarchy View](../../tree_hierarchy_view.md).
 
-![Object structure view](../images/data_manager/objects/objects_structure.png)
+![Object structure view](../../images/data_manager/objects/objects_structure.png)
 /// caption
 Fig.4 - Object structure view (screenshot pending)
 ///
@@ -156,7 +156,7 @@ This view shows the entities linked to the object:
 | Downtimes | Active maintenance windows for this object |
 | Dispatchers | Active automation rules linked to this object |
 
-![Object connections view](../images/data_manager/objects/objects_connections.png)
+![Object connections view](../../images/data_manager/objects/objects_connections.png)
 /// caption
 Fig.5 - Object connections view (screenshot pending)
 ///
@@ -165,4 +165,4 @@ Fig.5 - Object connections view (screenshot pending)
 
 !!! note
     To manage the measurements collected from an object, see [Metric Types](metric_types.md) and [Metrics](metrics.md).
-    To manage the monitoring agents associated with an object, see [Probes](../administration/probes.md).
+    To manage the monitoring agents associated with an object, see [Probes](../../administration/probes.md).

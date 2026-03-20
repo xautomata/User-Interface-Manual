@@ -33,7 +33,7 @@ Typical filter fields include:
 | Entity type | Type of entity the dispatcher is linked to |
 | Status | Active or Disabled |
 
-![Dispatchers pre-filter](../images/tracking/dispatchers/dispatchers_prefilter.png)
+![Dispatchers pre-filter](../../images/tracking/dispatchers/dispatchers_prefilter.png)
 /// caption
 Fig.1 - Dispatchers pre-filter dialog (screenshot pending)
 ///
@@ -44,7 +44,7 @@ Fig.1 - Dispatchers pre-filter dialog (screenshot pending)
 
 After applying the filter, the results appear in a table where each row represents a dispatcher rule.
 
-![Dispatchers table](../images/tracking/dispatchers/dispatchers_table.png)
+![Dispatchers table](../../images/tracking/dispatchers/dispatchers_table.png)
 /// caption
 Fig.2 - Dispatchers results table (screenshot pending)
 ///
@@ -72,14 +72,14 @@ The most common way to create a dispatcher is directly from the infrastructure h
 | Status | Active or Disabled |
 | Notes | Optional notes |
 
-![Dispatcher edit dialog](../images/tracking/dispatchers/dispatchers_crud.png)
+![Dispatcher edit dialog](../../images/tracking/dispatchers/dispatchers_crud.png)
 /// caption
 Fig.3 - Dispatcher edit dialog (screenshot pending)
 ///
 
 !!! note
     **Notification Providers** and **Messages** are configured in the Administration section.
-    See [Notification Providers](../administration/notification_providers.md) and [Messages](../administration/messages.md) for details.
+    See [Notification Providers](../../administration/notification_providers.md) and [Messages](../../administration/messages.md) for details.
 
 ---
 

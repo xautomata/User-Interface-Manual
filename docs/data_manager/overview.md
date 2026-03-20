@@ -54,7 +54,7 @@ The Tracking area provides tools to manage operational events that affect monito
 - **Downtimes** — temporarily suppress alerts during maintenance windows
 - **Dispatchers** — configure automated actions triggered by monitoring events
 
-See [Calendars](../tracking/calendars.md), [Downtimes](../tracking/downtimes.md), [Dispatchers](../tracking/dispatchers.md).
+See [Calendars](monitoring/calendars.md), [Downtimes](monitoring/downtimes.md), [Dispatchers](monitoring/dispatchers.md).
 
 ---
 

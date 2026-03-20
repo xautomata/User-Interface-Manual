@@ -116,4 +116,4 @@ Use this view to link a probe to additional objects or to remove existing associ
 
 !!! note
     Probe types define the monitoring technology used by a probe. See [Probe Types](probe_types.md) for details.
-    To understand how probes fit into the monitoring architecture, see [Objects](../data_manager/objects.md).
+    To understand how probes fit into the monitoring architecture, see [Objects](../data_manager/objects/objects.md).

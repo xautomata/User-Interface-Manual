@@ -41,7 +41,7 @@ When a monitoring event triggers a Dispatcher, the platform needs to know what t
 
 These three entities work together as the outbound communication layer of the platform.
 
-See [Messages](messages.md), [Notification Providers](notification_providers.md), and [Dispatchers](../tracking/dispatchers.md).
+See [Messages](messages.md), [Notification Providers](notification_providers.md), and [Dispatchers](../data_manager/monitoring/dispatchers.md).
 
 ---
 

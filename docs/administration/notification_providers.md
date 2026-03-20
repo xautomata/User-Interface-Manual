@@ -78,4 +78,4 @@ Typical delivery targets include email systems, ticketing platforms, webhook end
 !!! note
     Notification providers are based on **Notification Provider Types**, which define the configuration schema.
     See [Notification Provider Types](notification_provider_types.md) for details.
-    To configure automation rules, see [Dispatchers](../tracking/dispatchers.md).
+    To configure automation rules, see [Dispatchers](../data_manager/monitoring/dispatchers.md).

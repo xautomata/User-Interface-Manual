@@ -4,7 +4,7 @@ The **Messages** section manages the notification templates used by XAUTOMATA to
 
 !!! info
     Messages define *what* is sent — they do not send anything by themselves.
-    A message is always triggered by a [Dispatcher](../tracking/dispatchers.md), which determines *when* and *where* it is delivered.
+    A message is always triggered by a [Dispatcher](../data_manager/monitoring/dispatchers.md), which determines *when* and *where* it is delivered.
 
 ---
 
@@ -103,4 +103,4 @@ The same message template can be reused across multiple dispatchers, enabling co
 
 !!! note
     To configure the delivery channel, see [Notification Providers](notification_providers.md).
-    To configure the automation rule that triggers this message, see [Dispatchers](../tracking/dispatchers.md).
+    To configure the automation rule that triggers this message, see [Dispatchers](../data_manager/monitoring/dispatchers.md).
