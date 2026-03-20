@@ -85,7 +85,7 @@ When viewing a **Customer** hierarchy, an additional **Disabled sites** toggle i
 
 ![Hierarchy filter](../images/data_manager/tree_hierarchy/filter.png)
 /// caption
-Fig.4 — Hierarchy filter — name/code search and severity selector (screenshot pending)
+Fig.4 — Hierarchy filter — name/code search and severity selector
 ///
 
 ---
@@ -121,7 +121,7 @@ The modal displays:
 
 ![Metric data modal](../images/data_manager/tree_hierarchy/metric_data_modal.png)
 /// caption
-Fig.6 — Metric data modal with historical values and time filters (screenshot pending)
+Fig.6 — Metric data modal with historical values and time filters
 ///
 
 !!! info
@@ -140,7 +140,7 @@ From the modal you can:
 
 ![Active Downtimes modal](../images/data_manager/tree_hierarchy/downtime_modal.png)
 /// caption
-Fig.7 — Active Downtimes modal (screenshot pending)
+Fig.7 — Active Downtimes modal
 ///
 
 !!! warning
@@ -180,7 +180,7 @@ Opening a service row displays time-based data in the same format as the metric 
 
 ![Service data modal](../images/data_manager/tree_hierarchy/service_data_modal.png)
 /// caption
-Fig.8 — Service data modal — example: forecast cost monthly (screenshot pending)
+Fig.8 — Service data modal — example: forecast cost monthly
 ///
 
 ---

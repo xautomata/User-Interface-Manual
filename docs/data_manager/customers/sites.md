@@ -27,9 +27,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 Leave all fields empty and click **APPLY** to load all available sites.
 
-![Sites pre-filter](../images/data_manager/sites/sites_prefilter.png)
+![Sites pre-filter](../../images/data_manager/sites/sites_prefilter.png)
 /// caption
-Fig.1 - Sites pre-filter dialog (screenshot pending)
+Fig.1 - Sites pre-filter dialog
 ///
 
 ---
@@ -46,9 +46,9 @@ Typical columns include:
 - City
 - Status
 
-![Sites table](../images/data_manager/sites/sites_table.png)
+![Sites table](../../images/data_manager/sites/sites_table.png)
 /// caption
-Fig.2 - Sites results table (screenshot pending)
+Fig.2 - Sites results table
 ///
 
 ---
@@ -79,9 +79,9 @@ From this dialog you can:
 - duplicate the record
 - delete the record
 
-![Site detail dialog](../images/data_manager/sites/sites_crud.png)
+![Site detail dialog](../../images/data_manager/sites/sites_crud.png)
 /// caption
-Fig.3 - Site detail dialog (screenshot pending)
+Fig.3 - Site detail dialog
 ///
 
 ---
@@ -106,9 +106,9 @@ Use this view to navigate the monitored infrastructure organized under the selec
 
 For a detailed explanation of how to use this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
 
-![Site structure view](../images/data_manager/sites/sites_structure.png)
+![Site structure view](../../images/data_manager/sites/sites_structure.png)
 /// caption
-Fig.4 - Site structure view (screenshot pending)
+Fig.4 - Site structure view
 ///
 
 ---
@@ -139,9 +139,9 @@ To remove an existing association, select the row and click **DELETE**.
 !!! warning
     Removing a link does not delete the group or contact record — it only removes the association with this site.
 
-![Site connections view](../images/data_manager/sites/sites_connections.png)
+![Site connections view](../../images/data_manager/sites/sites_connections.png)
 /// caption
-Fig.5 - Site connections view (screenshot pending)
+Fig.5 - Site connections view
 ///
 
 ---

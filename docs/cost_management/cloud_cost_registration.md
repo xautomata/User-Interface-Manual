@@ -1,22 +1,12 @@
 # Cloud Cost Registration
 
-The **Cloud Cost Registration** section is where administrators configure the connections between XAUTOMATA and supported cloud providers.
-Once configured, the platform periodically retrieves billing data from the provider APIs and makes it available for analysis in dashboards and widgets.
+The **Cloud Cost Registration** section lets you connect XAUTOMATA to your cloud provider accounts so that billing data can be imported automatically.
+
+Each registration links a cloud provider account to a specific customer. The process follows a **multi-step wizard** that guides you through customer selection and provider configuration.
 
 !!! info
     Cloud Cost Registration is typically set up during onboarding by the XAUTOMATA delivery team.
-    This section is primarily used to review existing configurations or add new provider accounts.
-
----
-
-## Supported providers
-
-| Provider | Notes |
-|---|---|
-| **Azure CSP** | Azure Cloud Solution Provider accounts |
-| **Azure** | Standard Azure subscriptions |
-| **AWS** | Amazon Web Services accounts |
-| **Google Cloud** | Google Cloud Platform billing accounts |
+    This section is primarily used to review existing registrations or add new provider accounts.
 
 ---
 
@@ -24,50 +14,125 @@ Once configured, the platform periodically retrieves billing data from the provi
 
 From the main navigation menu, go to **Administration → Cloud Cost Registration**.
 
-The interface opens with a table listing the configured provider registrations.
+Select the provider you want to configure:
 
-![Cloud Cost Registration table](../images/cost_management/cloud_cost_registration/registration_table.png)
+| Provider | Description |
+|---|---|
+| **Azure CSP** | Azure Cloud Solution Provider accounts |
+| **Azure** | Standard Azure subscriptions |
+| **AWS** | Amazon Web Services accounts |
+| **Google Cloud** | Google Cloud Platform billing accounts |
+
+Each provider opens the same wizard flow, adapted to the specific fields required by that provider.
+
+---
+
+## Step 1 — Select or create a customer
+
+The first step associates the registration with a customer in XAUTOMATA.
+
+![Registration step 1 — customer selection](../images/cost_management/cloud_cost_registration/registration_step1.png)
 /// caption
-Fig.1 - Cloud Cost Registration table (screenshot pending)
+Fig.1 - Step 1 — select an existing customer or create a new one
+///
+
+You can either:
+
+- **Select an existing customer** — use the dropdown to search and select a customer already present in the platform
+- **Add a new customer** — fill in the customer details directly in the form
+
+Fields for a new customer:
+
+| Field | Description |
+|---|---|
+| Company Name | Full name of the organization |
+| Code | Internal accounting code |
+| VAT | VAT number |
+| Address | Street address |
+| ZIP | Postal code |
+| City | City |
+| State Province | State or province |
+| Country | Country code (e.g. IT, GB) |
+| Status | Active or Disabled |
+| Currency | Billing currency |
+| Notes | Optional notes |
+
+Click **NEXT** to proceed.
+
+---
+
+## Step 2 — Configure the provider account
+
+The second step collects the provider-specific configuration and credentials.
+
+![Registration step 2 — provider configuration](../images/cost_management/cloud_cost_registration/registration_step2.png)
+/// caption
+Fig.2 - Step 2 — provider account configuration (Azure example)
+///
+
+For **Azure**, the fields include:
+
+| Field | Description |
+|---|---|
+| Azure Customer Name | Name of the Azure customer account |
+| Azure Customer Accounting Code | Internal accounting reference |
+| Virtual Domain | Virtual domain to associate this registration with |
+| Address, ZIP, City, State Province, Country | Location details |
+| Base Margin | Base margin applied to billing data |
+| Reserved Margin | Reserved margin applied to billing data |
+
+For other providers (AWS, Google Cloud), the fields differ according to the credentials and configuration required by that provider's API.
+
+---
+
+## Step 3 — Add subscriptions
+
+At the bottom of the provider configuration page, a **Subscriptions List** section allows you to add one or more subscriptions linked to the provider account.
+
+Click **+ NEW SUBSCRIPTION** to open the Add New Subscription dialog.
+
+![Add New Subscription dialog](../images/cost_management/cloud_cost_registration/registration_subscription_dialog.png)
+/// caption
+Fig.3 - Add New Subscription dialog (Azure example)
+///
+
+For **Azure**, the subscription fields are:
+
+| Field | Description |
+|---|---|
+| Subscription ID | Azure subscription identifier |
+| Password | Authentication credential |
+| App ID | Azure application (service principal) ID |
+| Tenant ID | Azure tenant identifier |
+| Expiry Date | Credential expiry date |
+
+After filling in the fields, click **OK** to add the subscription to the list.
+
+You can add multiple subscriptions. Each row in the Subscriptions List shows the configured values and provides **edit** and **delete** icons on the right.
+
+![Registration with subscription list](../images/cost_management/cloud_cost_registration/registration_step2_subscriptions.png)
+/// caption
+Fig.4 - Provider configuration with a subscription added to the list
 ///
 
 ---
 
-## Registration details
+## Submitting the registration
 
-Click the **search icon (🔍)** on any row to open the registration record.
+Once the provider configuration and subscriptions are complete, click **SUBMIT** to save the registration.
 
-The fields displayed depend on the provider type. Typical fields include:
-
-| Field | Description |
-|---|---|
-| Name | Identifier for this registration |
-| Provider | Cloud provider type (Azure CSP, Azure, AWS, Google Cloud) |
-| Customer | Customer the billing data is associated with |
-| Credentials / Token | Authentication details for the provider API |
-| Status | Active or Disabled |
+XAUTOMATA will use the configured credentials to connect to the provider API and begin importing billing data.
 
 !!! warning
-    Credential fields contain sensitive information. Only administrators with appropriate permissions should access or modify these records.
+    Subscription credentials (Subscription ID, Password, App ID, Tenant ID) are sensitive. Ensure they are kept up to date — expired credentials will stop billing data from being imported.
+    Check the **Expiry Date** field regularly and update credentials before they expire.
 
 ---
 
 ## What happens after registration
 
-Once a provider is registered and active, XAUTOMATA:
+Once a registration is active, XAUTOMATA periodically retrieves billing data from the provider and makes it available in:
 
-1. Connects to the provider API using the configured credentials.
-2. Retrieves the available billing data for the associated subscription or account.
-3. Stores the raw cost data in the platform.
-
-The imported data is then available in:
-
-- the **Cloud Cost dashboard** — for direct analysis of raw billing data
-- the **Cloud Cost widgets** — trends, breakdowns, forecasts, and anomalies
+- the **Cloud Cost dashboard** — direct analysis of raw billing data
+- the **Cloud Cost widgets** — trends, breakdowns, forecasts, anomalies
 - the **Analytical Accounting widgets** — when costs are organized through [Cost Views](cost_views.md)
-
----
-
-!!! note
-    Raw billing data reflects the provider's own structure — subscriptions, resource groups, categories, locations.
-    To reorganize costs according to your internal accounting model, see [Cost Views](cost_views.md).

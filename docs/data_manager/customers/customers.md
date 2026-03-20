@@ -15,9 +15,9 @@ From the main navigation menu, go to **Customers → Client Repository → Custo
 
 The interface opens directly with the **results table**, without a pre-filter step.
 
-![Customers table](../images/data_manager/customers/customers_table.png)
+![Customers table](../../images/data_manager/customers/customers_table.png)
 /// caption
-Fig.1 - Customers table (screenshot pending)
+Fig.1 - Customers table
 ///
 
 Each row represents a customer. Use the search bar at the top of the table to filter records by name or code.
@@ -36,9 +36,9 @@ The detail view shows the main information associated with the customer:
 | Description | Full name or label of the organization |
 | Status | Active or Disabled |
 
-![Customer detail dialog](../images/data_manager/customers/customers_crud.png)
+![Customer detail dialog](../../images/data_manager/customers/customers_crud.png)
 /// caption
-Fig.2 - Customer detail dialog (screenshot pending)
+Fig.2 - Customer detail dialog
 ///
 
 ---
@@ -70,9 +70,9 @@ Use this tab to navigate the monitored infrastructure associated with the custom
 
 For a detailed explanation of how to navigate this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
 
-![Customer structure — Sites tab](../images/data_manager/customers/customers_structure_sites.png)
+![Customer structure — Sites tab](../../images/data_manager/customers/customers_structure_sites.png)
 /// caption
-Fig.3 - Customer structure view, Sites tab (screenshot pending)
+Fig.3 - Customer structure view, Sites tab
 ///
 
 ### Service Profiles tab
@@ -99,9 +99,9 @@ This view shows the entities linked to the customer:
 
 Use this view to verify which users and dashboards are associated with the customer, or to link new entities.
 
-![Customer connections view](../images/data_manager/customers/customers_connections.png)
+![Customer connections view](../../images/data_manager/customers/customers_connections.png)
 /// caption
-Fig.4 - Customer connections view (screenshot pending)
+Fig.4 - Customer connections view
 ///
 
 ---

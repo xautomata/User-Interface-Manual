@@ -24,9 +24,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 By default, the pre-filter is set to show only **active** metric types. Leave other fields empty and click **APPLY** to load all active metric types.
 
-![Metric Types pre-filter](../images/data_manager/metric_types/metric_types_prefilter.png)
+![Metric Types pre-filter](../../images/data_manager/metric_types/metric_types_prefilter.png)
 /// caption
-Fig.1 - Metric Types pre-filter dialog (screenshot pending)
+Fig.1 - Metric Types pre-filter dialog
 ///
 
 ---
@@ -43,9 +43,9 @@ Typical columns include:
 - Object
 - Status
 
-![Metric Types table](../images/data_manager/metric_types/metric_types_table.png)
+![Metric Types table](../../images/data_manager/metric_types/metric_types_table.png)
 /// caption
-Fig.2 - Metric Types results table (screenshot pending)
+Fig.2 - Metric Types results table
 ///
 
 ---
@@ -73,9 +73,9 @@ From this dialog you can:
 - duplicate the record
 - delete the record
 
-![Metric Type detail dialog](../images/data_manager/metric_types/metric_types_crud.png)
+![Metric Type detail dialog](../../images/data_manager/metric_types/metric_types_crud.png)
 /// caption
-Fig.3 - Metric Type detail dialog (screenshot pending)
+Fig.3 - Metric Type detail dialog
 ///
 
 ---
@@ -95,9 +95,9 @@ Use this view to inspect individual metric records and apply operational actions
 
 For a detailed explanation of how to use this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
 
-![Metric Type structure view](../images/data_manager/metric_types/metric_types_structure.png)
+![Metric Type structure view](../../images/data_manager/metric_types/metric_types_structure.png)
 /// caption
-Fig.4 - Metric Type structure view (screenshot pending)
+Fig.4 - Metric Type structure view
 ///
 
 ### Operational actions
@@ -129,9 +129,9 @@ This view shows the entities linked to the metric type:
 | Downtimes | Active maintenance windows for this metric type |
 | Dispatchers | Active automation rules linked to this metric type |
 
-![Metric Type connections view](../images/data_manager/metric_types/metric_types_connections.png)
+![Metric Type connections view](../../images/data_manager/metric_types/metric_types_connections.png)
 /// caption
-Fig.5 - Metric Type connections view (screenshot pending)
+Fig.5 - Metric Type connections view
 ///
 
 ---

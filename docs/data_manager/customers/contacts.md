@@ -21,9 +21,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 Leave all fields empty and click **APPLY** to load all available contacts.
 
-![Contacts pre-filter](../images/data_manager/contacts/contacts_prefilter.png)
+![Contacts pre-filter](../../images/data_manager/contacts/contacts_prefilter.png)
 /// caption
-Fig.1 - Contacts pre-filter dialog (screenshot pending)
+Fig.1 - Contacts pre-filter dialog
 ///
 
 ---
@@ -40,9 +40,9 @@ Typical columns include:
 - Phone
 - Status
 
-![Contacts table](../images/data_manager/contacts/contacts_table.png)
+![Contacts table](../../images/data_manager/contacts/contacts_table.png)
 /// caption
-Fig.2 - Contacts results table (screenshot pending)
+Fig.2 - Contacts results table
 ///
 
 ---
@@ -73,9 +73,9 @@ From this dialog you can:
 - duplicate the record
 - delete the record
 
-![Contact detail dialog](../images/data_manager/contacts/contacts_crud.png)
+![Contact detail dialog](../../images/data_manager/contacts/contacts_crud.png)
 /// caption
-Fig.3 - Contact detail dialog (screenshot pending)
+Fig.3 - Contact detail dialog
 ///
 
 ---
@@ -103,9 +103,9 @@ This view shows the entities the contact is linked to, organized in tabs:
 | Customers | Organizations this contact is associated with |
 | Sites | Sites this contact is responsible for |
 
-![Contact connections view](../images/data_manager/contacts/contacts_connections.png)
+![Contact connections view](../../images/data_manager/contacts/contacts_connections.png)
 /// caption
-Fig.4 - Contact connections view (screenshot pending)
+Fig.4 - Contact connections view
 ///
 
 ### Linking a contact to a customer or site

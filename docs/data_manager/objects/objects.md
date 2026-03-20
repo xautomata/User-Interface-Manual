@@ -23,7 +23,7 @@ By default, the pre-filter is set to show only **active** objects. Leave other f
 
 ![Objects pre-filter](../../images/data_manager/objects/objects_prefilter.png)
 /// caption
-Fig.1 - Objects pre-filter dialog (screenshot pending)
+Fig.1 - Objects pre-filter dialog
 ///
 
 ---
@@ -42,7 +42,7 @@ Typical columns include:
 
 ![Objects table](../../images/data_manager/objects/objects_table.png)
 /// caption
-Fig.2 - Objects results table (screenshot pending)
+Fig.2 - Objects results table
 ///
 
 ---
@@ -97,7 +97,7 @@ From this dialog you can:
 
 ![Object detail dialog](../../images/data_manager/objects/objects_crud.png)
 /// caption
-Fig.3 - Object detail dialog (screenshot pending)
+Fig.3 - Object detail dialog
 ///
 
 ---
@@ -118,11 +118,11 @@ The hierarchy displays the monitoring entities associated with the object:
 
 Use this view to inspect the monitoring data collected from the object and to apply operational actions at any level of the hierarchy.
 
-For a detailed explanation of how to use this view, see [Tree Hierarchy View](../../tree_hierarchy_view.md).
+For a detailed explanation of how to use this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
 
 ![Object structure view](../../images/data_manager/objects/objects_structure.png)
 /// caption
-Fig.4 - Object structure view (screenshot pending)
+Fig.4 - Object structure view
 ///
 
 ### Operational actions
@@ -158,7 +158,7 @@ This view shows the entities linked to the object:
 
 ![Object connections view](../../images/data_manager/objects/objects_connections.png)
 /// caption
-Fig.5 - Object connections view (screenshot pending)
+Fig.5 - Object connections view
 ///
 
 ---

@@ -25,9 +25,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 By default, the pre-filter is set to show only **active** services. Leave other fields empty and click **APPLY** to load all active services.
 
-![Services pre-filter](../images/data_manager/services/services_prefilter.png)
+![Services pre-filter](../../images/data_manager/services/services_prefilter.png)
 /// caption
-Fig.1 - Services pre-filter dialog (screenshot pending)
+Fig.1 - Services pre-filter dialog
 ///
 
 ---
@@ -45,9 +45,9 @@ Typical columns include:
 
 The table supports multi-selection, which enables mass operations on multiple services at once.
 
-![Services table](../images/data_manager/services/services_table.png)
+![Services table](../../images/data_manager/services/services_table.png)
 /// caption
-Fig.2 - Services results table (screenshot pending)
+Fig.2 - Services results table
 ///
 
 ---
@@ -78,9 +78,9 @@ From this dialog you can:
 !!! note
     The **Rule** and **Automata** fields contain JSON-based configurations managed by the XAUTOMATA delivery team. Do not edit them unless instructed.
 
-![Service detail dialog](../images/data_manager/services/services_crud.png)
+![Service detail dialog](../../images/data_manager/services/services_crud.png)
 /// caption
-Fig.3 - Service detail dialog (screenshot pending)
+Fig.3 - Service detail dialog
 ///
 
 ---
@@ -93,9 +93,9 @@ This opens a dedicated view showing service-level analytics for the selected ser
 
 When multiple services are selected in the table, use **Multi-services data** to compare data across services side by side.
 
-![Service Data view](../images/data_manager/services/services_data.png)
+![Service Data view](../../images/data_manager/services/services_data.png)
 /// caption
-Fig.4 - Service Data view (screenshot pending)
+Fig.4 - Service Data view
 ///
 
 ---
@@ -121,9 +121,9 @@ Shows the metrics linked to the service. For each metric you can open **Metric D
 
 Shows child services nested under this service. You can create new child services directly from this tab — the parent relation is pre-filled automatically.
 
-![Service connections view](../images/data_manager/services/services_connections.png)
+![Service connections view](../../images/data_manager/services/services_connections.png)
 /// caption
-Fig.5 - Service connections view (screenshot pending)
+Fig.5 - Service connections view
 ///
 
 ---

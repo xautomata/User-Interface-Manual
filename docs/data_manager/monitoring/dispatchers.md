@@ -35,7 +35,7 @@ Typical filter fields include:
 
 ![Dispatchers pre-filter](../../images/tracking/dispatchers/dispatchers_prefilter.png)
 /// caption
-Fig.1 - Dispatchers pre-filter dialog (screenshot pending)
+Fig.1 - Dispatchers pre-filter dialog
 ///
 
 ---
@@ -46,7 +46,7 @@ After applying the filter, the results appear in a table where each row represen
 
 ![Dispatchers table](../../images/tracking/dispatchers/dispatchers_table.png)
 /// caption
-Fig.2 - Dispatchers results table (screenshot pending)
+Fig.2 - Dispatchers results table
 ///
 
 ---
@@ -74,7 +74,7 @@ The most common way to create a dispatcher is directly from the infrastructure h
 
 ![Dispatcher edit dialog](../../images/tracking/dispatchers/dispatchers_crud.png)
 /// caption
-Fig.3 - Dispatcher edit dialog (screenshot pending)
+Fig.3 - Dispatcher edit dialog
 ///
 
 !!! note

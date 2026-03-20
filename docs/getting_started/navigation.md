@@ -14,7 +14,7 @@ The interface is composed of three elements:
 
 ![Interface layout](../images/getting_started/navigation_main.png)
 /// caption
-Fig.1 - Main interface layout (screenshot pending)
+Fig.1 - Main interface layout
 ///
 
 ---
@@ -43,7 +43,7 @@ Clicking **Home** brings you to the home screen, which acts as the starting poin
 
 ![Home screen](../images/getting_started/navigation_home.png)
 /// caption
-Fig.3 - Home screen with customer search (screenshot pending)
+Fig.3 - Home screen with customer search
 ///
 
 The home screen displays:

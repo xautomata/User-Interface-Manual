@@ -16,7 +16,7 @@ The interface opens with a table listing all available message templates.
 
 ![Messages table](../images/administration/messages/messages_table.png)
 /// caption
-Fig.1 - Messages table (screenshot pending)
+Fig.1 - Messages table
 ///
 
 ---
@@ -42,7 +42,7 @@ From this dialog you can:
 
 ![Message detail dialog](../images/administration/messages/messages_crud.png)
 /// caption
-Fig.2 - Message detail dialog (screenshot pending)
+Fig.2 - Message detail dialog
 ///
 
 ---

@@ -25,9 +25,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 By default, the pre-filter is set to show only **active** metrics. Leave other fields empty and click **APPLY** to load all active metrics.
 
-![Metrics pre-filter](../images/data_manager/metrics/metrics_prefilter.png)
+![Metrics pre-filter](../../images/data_manager/metrics/metrics_prefilter.png)
 /// caption
-Fig.1 - Metrics pre-filter dialog (screenshot pending)
+Fig.1 - Metrics pre-filter dialog
 ///
 
 ---
@@ -44,9 +44,9 @@ Typical columns include:
 - Metric Type
 - Status
 
-![Metrics table](../images/data_manager/metrics/metrics_table.png)
+![Metrics table](../../images/data_manager/metrics/metrics_table.png)
 /// caption
-Fig.2 - Metrics results table (screenshot pending)
+Fig.2 - Metrics results table
 ///
 
 ---
@@ -68,9 +68,9 @@ The CRUD dialog displays the configuration of the metric:
 | Status | Active or Disabled |
 | Feedback for Operator | Notes or guidance for the operator |
 
-![Metric detail dialog](../images/data_manager/metrics/metrics_crud.png)
+![Metric detail dialog](../../images/data_manager/metrics/metrics_crud.png)
 /// caption
-Fig.3 - Metric detail dialog (screenshot pending)
+Fig.3 - Metric detail dialog
 ///
 
 ---
@@ -90,9 +90,9 @@ The display format depends on the metric type:
 
 Use this view to analyze trends, identify anomalies, or verify that monitoring data is being collected correctly.
 
-![Metric Data dialog](../images/data_manager/metrics/metrics_data.png)
+![Metric Data dialog](../../images/data_manager/metrics/metrics_data.png)
 /// caption
-Fig.4 - Metric Data dialog — chart view (screenshot pending)
+Fig.4 - Metric Data dialog — chart view
 ///
 
 ---
@@ -125,9 +125,9 @@ This view shows the entities linked to the metric:
 | Downtimes | Active maintenance windows for this metric |
 | Dispatchers | Active automation rules linked to this metric |
 
-![Metric connections view](../images/data_manager/metrics/metrics_connections.png)
+![Metric connections view](../../images/data_manager/metrics/metrics_connections.png)
 /// caption
-Fig.5 - Metric connections view (screenshot pending)
+Fig.5 - Metric connections view
 ///
 
 ---

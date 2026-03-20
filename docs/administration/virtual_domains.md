@@ -14,7 +14,7 @@ Use the search controls in the table header to filter records directly.
 
 ![Virtual Domains table](../images/administration/virtual_domains/virtual_domains_table.png)
 /// caption
-Fig.1 - Virtual Domains table (screenshot pending)
+Fig.1 - Virtual Domains table
 ///
 
 ---
@@ -62,7 +62,7 @@ Shows the monitoring probes associated with the virtual domain. Columns include 
 
 ![Virtual Domain connections view](../images/administration/virtual_domains/virtual_domains_connections.png)
 /// caption
-Fig.2 - Virtual Domain connections view (screenshot pending)
+Fig.2 - Virtual Domain connections view
 ///
 
 ---

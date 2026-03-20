@@ -22,7 +22,7 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 ![Users pre-filter](../images/administration/users/users_prefilter.png)
 /// caption
-Fig.1 - Users pre-filter dialog (screenshot pending)
+Fig.1 - Users pre-filter dialog
 ///
 
 ---
@@ -40,7 +40,7 @@ Typical columns include:
 
 ![Users table](../images/administration/users/users_table.png)
 /// caption
-Fig.2 - Users results table (screenshot pending)
+Fig.2 - Users results table
 ///
 
 ---
@@ -77,7 +77,7 @@ The dialog also shows **Last change** — the timestamp of the last password mod
 
 ![User detail dialog](../images/administration/users/users_crud.png)
 /// caption
-Fig.3 - User detail dialog (screenshot pending)
+Fig.3 - User detail dialog
 ///
 
 ---
@@ -144,7 +144,7 @@ Use this view to control what data and dashboards a user can see after login.
 
 ![User connections view](../images/administration/users/users_connections.png)
 /// caption
-Fig.4 - User connections view (screenshot pending)
+Fig.4 - User connections view
 ///
 
 ---

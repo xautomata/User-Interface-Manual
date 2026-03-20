@@ -22,7 +22,7 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 ![Probes pre-filter](../images/administration/probes/probes_prefilter.png)
 /// caption
-Fig.1 - Probes pre-filter dialog (screenshot pending)
+Fig.1 - Probes pre-filter dialog
 ///
 
 ---
@@ -47,7 +47,7 @@ Use **Severity** and **Last Seen** to quickly identify probes that may be offlin
 
 ![Probes table](../images/administration/probes/probes_table.png)
 /// caption
-Fig.2 - Probes results table (screenshot pending)
+Fig.2 - Probes results table
 ///
 
 ---
@@ -78,7 +78,7 @@ From this dialog you can:
 
 ![Probe detail dialog](../images/administration/probes/probes_crud.png)
 /// caption
-Fig.3 - Probe detail dialog (screenshot pending)
+Fig.3 - Probe detail dialog
 ///
 
 ---
@@ -97,7 +97,7 @@ Use the logs to diagnose issues such as:
 
 ![Probe logs](../images/administration/probes/probes_logs.png)
 /// caption
-Fig.4 - Probe logs view (screenshot pending)
+Fig.4 - Probe logs view
 ///
 
 ---

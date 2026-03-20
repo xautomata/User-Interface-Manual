@@ -25,7 +25,7 @@ Examples of notification provider types include:
 
 ![Notification Provider Types table](../images/administration/notification_provider_types/notification_provider_types_table.png)
 /// caption
-Fig.1 - Notification Provider Types table (screenshot pending)
+Fig.1 - Notification Provider Types table
 ///
 
 ---

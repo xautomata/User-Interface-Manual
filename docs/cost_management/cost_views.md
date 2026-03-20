@@ -127,7 +127,7 @@ Click the **🌿 icon** on any node to add a child node under it.
 Child nodes allow you to subdivide the resources of a parent node into more granular groupings. A child node can define its own queries to filter among the resources of its parent.
 
 !!! warning
-    The exact scoping rules for child node resources are pending verification — see [Q3 in the Q&A log](../qa.md).
+    The exact scoping rules for child node resources are pending verification.
 
 ---
 

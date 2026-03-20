@@ -15,9 +15,9 @@ From the main navigation menu, go to **Tracking → Calendars**.
 Unlike most sections, Calendars opens **directly in a table view** — there is no pre-filter dialog.
 The full list of available calendars is displayed immediately.
 
-![Calendars table](../images/tracking/calendars/calendars_table.png)
+![Calendars table](../../images/tracking/calendars/calendars_table.png)
 /// caption
-Fig.1 - Calendars table (screenshot pending)
+Fig.1 - Calendars table
 ///
 
 ---
@@ -68,9 +68,9 @@ Leave both intervals empty for a day to mark it as non-working.
 
 For ICAL calendars, provide the URL or content of the iCalendar source to import the schedule.
 
-![Calendar edit form](../images/tracking/calendars/calendars_crud.png)
+![Calendar edit form](../../images/tracking/calendars/calendars_crud.png)
 /// caption
-Fig.2 - Calendar edit form — Legacy type (screenshot pending)
+Fig.2 - Calendar edit form — Legacy type
 ///
 
 ---

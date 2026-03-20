@@ -13,7 +13,7 @@ The interface opens with a table listing all configured notification providers.
 
 ![Notification Providers table](../images/administration/notification_providers/notification_providers_table.png)
 /// caption
-Fig.1 - Notification Providers table (screenshot pending)
+Fig.1 - Notification Providers table
 ///
 
 ---
@@ -42,7 +42,7 @@ From this dialog you can:
 
 ![Notification Provider detail dialog](../images/administration/notification_providers/notification_providers_crud.png)
 /// caption
-Fig.2 - Notification Provider detail dialog (screenshot pending)
+Fig.2 - Notification Provider detail dialog
 ///
 
 ---

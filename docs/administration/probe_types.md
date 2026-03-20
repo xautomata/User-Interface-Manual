@@ -17,7 +17,7 @@ The interface opens with a table listing all available probe types.
 
 ![Probe Types table](../images/administration/probe_types/probe_types_table.png)
 /// caption
-Fig.1 - Probe Types table (screenshot pending)
+Fig.1 - Probe Types table
 ///
 
 ---

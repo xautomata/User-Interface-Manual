@@ -22,9 +22,9 @@ The interface opens with a **pre-filter dialog**. Fill in one or more fields to 
 
 By default, the pre-filter is set to show only **active** groups. Leave other fields empty and click **APPLY** to load all active groups.
 
-![Groups pre-filter](../images/data_manager/groups/groups_prefilter.png)
+![Groups pre-filter](../../images/data_manager/groups/groups_prefilter.png)
 /// caption
-Fig.1 - Groups pre-filter dialog (screenshot pending)
+Fig.1 - Groups pre-filter dialog
 ///
 
 ---
@@ -42,9 +42,9 @@ Typical columns include:
 - Virtual Domain
 - Status
 
-![Groups table](../images/data_manager/groups/groups_table.png)
+![Groups table](../../images/data_manager/groups/groups_table.png)
 /// caption
-Fig.2 - Groups results table (screenshot pending)
+Fig.2 - Groups results table
 ///
 
 ---
@@ -92,9 +92,9 @@ From this dialog you can:
     The **Group Parent** field is used when a group is nested inside another group.
     This allows you to model multi-level infrastructure hierarchies.
 
-![Group detail dialog](../images/data_manager/groups/groups_crud.png)
+![Group detail dialog](../../images/data_manager/groups/groups_crud.png)
 /// caption
-Fig.3 - Group detail dialog (screenshot pending)
+Fig.3 - Group detail dialog
 ///
 
 ---
@@ -119,9 +119,9 @@ Use this view to navigate the full monitoring structure under the selected group
 
 For a detailed explanation of how to use this view, see [Tree Hierarchy View](../tree_hierarchy_view.md).
 
-![Group structure view](../images/data_manager/groups/groups_structure.png)
+![Group structure view](../../images/data_manager/groups/groups_structure.png)
 /// caption
-Fig.4 - Group structure view (screenshot pending)
+Fig.4 - Group structure view
 ///
 
 ### Operational actions
@@ -154,9 +154,9 @@ This view shows the entities linked to the group:
 | Downtimes | Active downtime records linked to this group |
 | Dispatchers | Active dispatchers linked to this group |
 
-![Group connections view](../images/data_manager/groups/groups_connections.png)
+![Group connections view](../../images/data_manager/groups/groups_connections.png)
 /// caption
-Fig.5 - Group connections view (screenshot pending)
+Fig.5 - Group connections view
 ///
 
 ---

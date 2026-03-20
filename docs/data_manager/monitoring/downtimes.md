@@ -33,9 +33,9 @@ Typical filter fields include:
 | Entity type | Type of entity the downtime applies to (Group, Object, Metric Type, Metric) |
 | Status | Active or Disabled |
 
-![Downtimes pre-filter](../images/tracking/downtimes/downtimes_prefilter.png)
+![Downtimes pre-filter](../../images/tracking/downtimes/downtimes_prefilter.png)
 /// caption
-Fig.1 - Downtimes pre-filter dialog (screenshot pending)
+Fig.1 - Downtimes pre-filter dialog
 ///
 
 ---
@@ -44,9 +44,9 @@ Fig.1 - Downtimes pre-filter dialog (screenshot pending)
 
 After applying the filter, the results appear in a table where each row represents a downtime record.
 
-![Downtimes table](../images/tracking/downtimes/downtimes_table.png)
+![Downtimes table](../../images/tracking/downtimes/downtimes_table.png)
 /// caption
-Fig.2 - Downtimes results table (screenshot pending)
+Fig.2 - Downtimes results table
 ///
 
 ---
@@ -75,9 +75,9 @@ The most common way to create a downtime is directly from the infrastructure hie
 | Status | Active or Disabled |
 | Notes | Optional notes |
 
-![Downtime edit dialog](../images/tracking/downtimes/downtimes_crud.png)
+![Downtime edit dialog](../../images/tracking/downtimes/downtimes_crud.png)
 /// caption
-Fig.3 - Downtime edit dialog (screenshot pending)
+Fig.3 - Downtime edit dialog
 ///
 
 ---
