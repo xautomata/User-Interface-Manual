@@ -114,18 +114,21 @@ Each row exposes contextual action icons depending on the entity type.
 
 Click the **chart icon** to open the metric data modal.
 
-The modal displays:
+The modal displays the historical time series for the selected metric, with:
 
-- Time range filters
-- Historical values in table or chart form
+- **Start date** and **End date** pickers to set the time range
+- **UPDATE** button to refresh the chart with the selected range
+- **RESET** button to restore the default range
+- **Zoom range** shortcuts: 1h, 3h, 6h, 12h, 24h
+- A breadcrumb at the top showing the full path of the metric in the hierarchy
 
 ![Metric data modal](../images/data_manager/tree_hierarchy/metric_data_modal.png)
 /// caption
-Fig.6 — Metric data modal with historical values and time filters
+Fig.6 — Metric data modal — time series chart with date range controls
 ///
 
 !!! info
-    Use the date range selector to focus the analysis on a specific period.
+    Use the date range selector to focus the analysis on a specific period. Each metric is displayed as a separate chart if the modal is opened from a multi-selection (see [Multi-Metrics Data](#multi-metrics-data)).
 
 ---
 
@@ -182,6 +185,105 @@ Opening a service row displays time-based data in the same format as the metric 
 /// caption
 Fig.8 — Service data modal — example: forecast cost monthly
 ///
+
+---
+
+## Multi-selection and bulk actions
+
+Groups, Objects, Metric Types, and Metrics each display a **checkbox** on the left of their rows.
+Checking a checkbox selects that entity and activates a bulk action toolbar at the top of the hierarchy panel.
+
+![Multi-selection toolbar — groups selected](../images/data_manager/tree_hierarchy/multi_selection_groups.png)
+/// caption
+Fig.9 — Two groups selected — bulk action toolbar shows Massive Downtime and Massive Dispatchers
+///
+
+![Multi-selection toolbar — metrics selected](../images/data_manager/tree_hierarchy/multi_selection_metrics.png)
+/// caption
+Fig.10 — Two metrics selected — bulk action toolbar adds Multi-Metrics Data
+///
+
+### Selection rules
+
+Selection is **type-constrained**: you can only select entities of the same type within a single operation.
+
+- The first checkbox you tick determines the entity type for that selection (for example: Metric).
+- Checkboxes at all other hierarchy levels are automatically disabled until the selection is cleared.
+- To start a new selection of a different type, clear the current selection first using the **✕** button in the toolbar.
+
+### Bulk actions
+
+The toolbar that appears when entities are selected exposes the following actions:
+
+| Action | Available for | Description |
+|---|---|---|
+| **Massive Downtime** | Groups, Objects, Metric Types, Metrics | Apply a downtime to all selected entities at once |
+| **Massive Dispatchers** | Groups, Objects, Metric Types, Metrics | Apply a dispatcher rule to all selected entities at once |
+| **Multi-Metrics Data** | Metrics only | Open a single chart view showing the time series of all selected metrics overlaid |
+
+### Multi-Metrics Data
+
+When two or more **Metrics** are selected, the **Multi-Metrics Data** action opens a combined chart view.
+
+Each selected metric is displayed as a separate chart, stacked vertically, sharing the same time axis and zoom controls.
+
+![Multi-Metrics Data view](../images/data_manager/tree_hierarchy/multi_metrics_data.png)
+/// caption
+Fig.11 — Multi-Metrics Data — two CPU metrics displayed on a shared time axis
+///
+
+Use the **Start date** and **End date** fields at the top to set the time range, then click **UPDATE** to refresh all charts. The **Zoom range** shortcuts (1h, 3h, 6h, 12h, 24h) adjust the visible window across all charts simultaneously.
+
+---
+
+## Downtime and Dispatcher dialogs
+
+### Add new downtime
+
+Clicking the downtime action (on a single row or via Massive Downtime) opens the **Add new downtime** dialog.
+
+![Add new downtime dialog](../images/data_manager/tree_hierarchy/downtime_modal.png)
+/// caption
+Fig.12 — Add new downtime dialog
+///
+
+| Field | Description |
+|---|---|
+| Code | Auto-generated identifier (editable) |
+| Description | Optional description |
+| Start | Start date and time of the downtime window |
+| End | End date and time of the downtime window |
+| Calendar | Alternative to fixed dates — use a calendar schedule to define the downtime window |
+| Country | Optional geographic filter |
+| State/Province | Optional geographic filter |
+| Status | Active or Disabled |
+
+!!! warning
+    You must provide either **Start + End dates** or a **Calendar**. The dialog will not save without at least one of these.
+
+### Add new dispatcher
+
+Clicking the dispatcher action opens the **Add new dispatcher** dialog.
+
+![Add new dispatcher dialog](../images/data_manager/tree_hierarchy/dispatcher_modal.png)
+/// caption
+Fig.13 — Add new dispatcher dialog
+///
+
+| Field | Description |
+|---|---|
+| Type | Dispatcher type |
+| Level | Severity level that triggers the dispatcher |
+| Code | Unique identifier |
+| Description | Optional description |
+| Calendar | Calendar that controls when the dispatcher is active |
+| Notification Provider | Delivery channel for the notification |
+| Message | Message template to use |
+| Data profile | Additional data profile configuration |
+| Status | Active or Disabled |
+| Remember it | Repeat behavior setting |
+| Delay | Delay before the dispatcher fires |
+| Country / State Province | Optional geographic filters |
 
 ---
 
