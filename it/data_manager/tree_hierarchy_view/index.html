@@ -1,0 +1,3457 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the use of XAUTOMATA Services">
+      
+      
+      
+        <link rel="canonical" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/tree_hierarchy_view/">
+      
+      
+        <link rel="prev" href="../working_with_entities/">
+      
+      
+        <link rel="next" href="../customers/customers/">
+      
+      
+        
+          <link rel="alternate" href="../../../data_manager/tree_hierarchy_view/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="it">
+        
+      
+      
+      <link rel="icon" href="../../../images/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>Tree Hierarchy View - XAUTOMATA Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tree-hierarchy-view" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../../" title="XAUTOMATA Documentation" class="md-header__button md-logo" aria-label="XAUTOMATA Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XAUTOMATA Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tree Hierarchy View
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleziona la lingua">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../data_manager/tree_hierarchy_view/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="XAUTOMATA Documentation" class="md-nav__button md-logo" aria-label="XAUTOMATA Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    XAUTOMATA Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/navigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigating the Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dashboards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/it_infrastructure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IT Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboards/cloud_cost/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Cost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widgets
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Widgets
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widget Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infrastructure Monitoring
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Infrastructure Monitoring
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/it_infrastructure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IT Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/it_analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IT Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/it_anomalies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IT Anomalies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Governance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Network Governance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/network_analytics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Analytics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/net_flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Net Flow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Service Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Service Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/support_service_kpi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Support Service KPI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Governance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Governance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/cloud_cost/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Cost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widgets/analytical_accounting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Accounting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Manager
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data Manager
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../working_with_entities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Working with Entities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tree Hierarchy View
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tree Hierarchy View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accedere-alla-vista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accedere alla Vista
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layout-della-pagina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Layout della Pagina
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struttura-della-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struttura della Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tab-della-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tab della Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrare-la-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtrare la Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#righe-delle-entita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Righe delle Entità
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#azioni-sulle-righe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azioni sulle Righe
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Azioni sulle Righe">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-i-dati-della-metrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare i Dati della Metrica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestire-i-downtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestire i Downtime
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-i-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire i Dispatcher
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-la-struttura-dellentita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire la Struttura dell'Entità
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-i-dettagli-dellentita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire i Dettagli dell'Entità
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servizi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Servizi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selezione-multipla-e-azioni-bulk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selezione Multipla e Azioni Bulk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selezione Multipla e Azioni Bulk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-di-selezione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole di Selezione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azioni-bulk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azioni Bulk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-metrics-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Metrics Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dialog-downtime-e-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialog Downtime e Dispatcher
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dialog Downtime e Dispatcher">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-downtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Downtime
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Dispatcher
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tree-hierarchy-view-vs-connections-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tree Hierarchy View vs Connections View
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Customers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customers/customers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customers/sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customers/contacts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contacts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Objects Repository
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Objects Repository
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objects/groups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objects/objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objects/metric_types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metric Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objects/metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objects/services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monitoring Operations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Monitoring Operations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/calendars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calendars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/downtimes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Downtimes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/dispatchers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dispatchers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cost_management/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cost_management/cloud_cost_registration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Cost Registration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cost_management/cost_views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Views
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Administration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Administration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/access_control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Access Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/virtual_domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Domains
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/probes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Probes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/probe_types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Probe Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/notification_providers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notification Providers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/notification_provider_types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notification Provider Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Super Admin
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Super Admin
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../super_admin/widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widgets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../super_admin/widget_groups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widget Groups
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../super_admin/dashboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../super_admin/acl_overrides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ACL Overrides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accedere-alla-vista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accedere alla Vista
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layout-della-pagina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Layout della Pagina
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struttura-della-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struttura della Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tab-della-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tab della Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrare-la-gerarchia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtrare la Gerarchia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#righe-delle-entita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Righe delle Entità
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#azioni-sulle-righe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azioni sulle Righe
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Azioni sulle Righe">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-i-dati-della-metrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare i Dati della Metrica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestire-i-downtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestire i Downtime
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-i-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire i Dispatcher
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-la-struttura-dellentita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire la Struttura dell'Entità
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aprire-i-dettagli-dellentita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aprire i Dettagli dell'Entità
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servizi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Servizi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selezione-multipla-e-azioni-bulk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selezione Multipla e Azioni Bulk
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selezione Multipla e Azioni Bulk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regole-di-selezione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regole di Selezione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azioni-bulk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azioni Bulk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-metrics-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Metrics Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dialog-downtime-e-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialog Downtime e Dispatcher
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dialog Downtime e Dispatcher">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-downtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Downtime
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-dispatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Dispatcher
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tree-hierarchy-view-vs-connections-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tree Hierarchy View vs Connections View
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="tree-hierarchy-view">Tree Hierarchy View</h1>
+<p>La <strong>Tree Hierarchy View</strong> ti consente di navigare l'infrastruttura monitorata come una gerarchia strutturata, espandendo progressivamente i livelli da un'entità radice fino alle singole metriche e ai servizi.</p>
+<hr />
+<h2 id="accedere-alla-vista">Accedere alla Vista</h2>
+<p>La Tree Hierarchy View è disponibile per <strong>Objects</strong>, <strong>Groups</strong> e <strong>Customers</strong>.</p>
+<ul>
+<li>Per gli <strong>Objects</strong>: cliccando sull'<strong>icona link</strong> su una riga della tabella si apre direttamente la Tree Hierarchy View.</li>
+<li>Per <strong>Groups</strong> e <strong>Customers</strong>: apri la Connections view, poi usa il <strong>selettore</strong> nella barra superiore per passare alla Tree Hierarchy View.</li>
+</ul>
+<p>Dalla Tree Hierarchy View, usa il pulsante <strong>Connections View</strong> nella barra superiore per tornare indietro.</p>
+<hr />
+<h2 id="layout-della-pagina">Layout della Pagina</h2>
+<p>La pagina è divisa in due pannelli:</p>
+<ul>
+<li><strong>Pannello sinistro</strong> — dettagli in sola lettura dell'entità radice selezionata, con pulsanti di azione come <strong>EDIT INFORMATIONS</strong> e <strong>DOWNTIMES</strong></li>
+<li><strong>Pannello destro</strong> — la gerarchia espandibile delle entità correlate</li>
+</ul>
+<figure>
+<p><img alt="Tree Hierarchy View layout" src="../../../images/data_manager/tree_hierarchy/layout.png" /></p>
+<figcaption>
+<p>Fig.1 — Tree Hierarchy View — dettagli entità a sinistra, gerarchia espandibile a destra</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="struttura-della-gerarchia">Struttura della Gerarchia</h2>
+<p>Il pannello destro mostra l'infrastruttura come sezioni espandibili. Clicca su una riga per espanderla e visualizzare il livello successivo.</p>
+<p>Un percorso di navigazione tipico da un Customer è:</p>
+<ol>
+<li><strong>Customer</strong></li>
+<li><strong>Sites</strong></li>
+<li><strong>Groups</strong></li>
+<li><strong>Objects</strong></li>
+<li><strong>Metric Types</strong></li>
+<li><strong>Metrics / Services</strong></li>
+</ol>
+<figure>
+<p><img alt="Hierarchy expansion" src="../../../images/data_manager/tree_hierarchy/hierarchy_expansion.png" /></p>
+<figcaption>
+<p>Fig.2 — Espansione progressiva dei livelli della gerarchia da Customer a Metrics</p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I livelli disponibili dipendono dal tipo di entità e dalla sua configurazione. Non tutti i percorsi portano alla stessa profondità.</p>
+</div>
+<hr />
+<h2 id="tab-della-gerarchia">Tab della Gerarchia</h2>
+<p>Alcune entità offrono più prospettive gerarchiche accessibili tramite tab nella parte superiore del pannello destro.</p>
+<p>Ad esempio, un <strong>Customer</strong> può esporre:</p>
+<ul>
+<li><strong>Sites</strong> — il raggruppamento geografico e logico degli oggetti</li>
+<li><strong>Service Profiles</strong> — la vista orientata ai servizi della stessa infrastruttura</li>
+</ul>
+<figure>
+<p><img alt="Hierarchy tabs" src="../../../images/data_manager/tree_hierarchy/tabs.png" /></p>
+<figcaption>
+<p>Fig.3 — Tab della gerarchia su un Customer — Sites e Service Profiles</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="filtrare-la-gerarchia">Filtrare la Gerarchia</h2>
+<p>Accanto alle tab della gerarchia, un'<strong>icona filtro</strong> ti consente di restringere le righe visualizzate nel pannello destro.</p>
+<p>Sono disponibili due modalità di filtro:</p>
+<table>
+<thead>
+<tr>
+<th>Filtro</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filtro per nome o codice</strong></td>
+<td>Digita una stringa per mostrare solo le righe il cui nome o codice contiene il testo inserito</td>
+</tr>
+<tr>
+<td><strong>Severity</strong></td>
+<td>Seleziona uno o più valori di stato (verde, rosso, giallo, viola, grigio) per mostrare solo le righe con quello stato</td>
+</tr>
+</tbody>
+</table>
+<p>Il filtro si applica al livello attualmente visibile. Cancella il filtro per ripristinare l'elenco completo.</p>
+<p>Quando si visualizza una gerarchia <strong>Customer</strong>, è disponibile un ulteriore toggle <strong>Disabled sites</strong> accanto all'icona del filtro. I siti disabilitati sono nascosti per impostazione predefinita — abilita il toggle per includerli nella gerarchia.</p>
+<figure>
+<p><img alt="Hierarchy filter" src="../../../images/data_manager/tree_hierarchy/filter.png" /></p>
+<figcaption>
+<p>Fig.4 — Filtro della gerarchia — ricerca per nome/codice e selettore di severità</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="righe-delle-entita">Righe delle Entità</h2>
+<p>Ogni riga nella gerarchia mostra:</p>
+<ul>
+<li>Un <strong>indicatore di stato</strong> (punto colorato)</li>
+<li>Il <strong>nome</strong> e l'identificatore dell'entità</li>
+<li><strong>Contatori dei figli</strong> opzionali</li>
+<li><strong>Icone di azione</strong> sul lato destro</li>
+</ul>
+<figure>
+<p><img alt="Entity row actions" src="../../../images/data_manager/tree_hierarchy/entity_row.png" /></p>
+<figcaption>
+<p>Fig.5 — Riga entità con indicatore di stato e icone di azione contestuali</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="azioni-sulle-righe">Azioni sulle Righe</h2>
+<p>Ogni riga espone icone di azione contestuali a seconda del tipo di entità.</p>
+<h3 id="visualizzare-i-dati-della-metrica">Visualizzare i Dati della Metrica</h3>
+<p>Clicca sull'<strong>icona del grafico</strong> per aprire il modal dei dati della metrica.</p>
+<p>Il modal mostra la serie temporale storica per la metrica selezionata, con:</p>
+<ul>
+<li>Selettori <strong>Start date</strong> e <strong>End date</strong> per impostare l'intervallo temporale</li>
+<li>Pulsante <strong>UPDATE</strong> per aggiornare il grafico con l'intervallo selezionato</li>
+<li>Pulsante <strong>RESET</strong> per ripristinare l'intervallo predefinito</li>
+<li>Scorciatoie <strong>Zoom range</strong>: 1h, 3h, 6h, 12h, 24h</li>
+<li>Un breadcrumb nella parte superiore che mostra il percorso completo della metrica nella gerarchia</li>
+</ul>
+<figure>
+<p><img alt="Metric data modal" src="../../../images/data_manager/tree_hierarchy/metric_data_modal.png" /></p>
+<figcaption>
+<p>Fig.6 — Modal dei dati della metrica — grafico della serie temporale con controlli dell'intervallo di date</p>
+</figcaption>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Usa il selettore dell'intervallo di date per concentrare l'analisi su un periodo specifico. Ogni metrica viene visualizzata come grafico separato se il modal viene aperto da una selezione multipla (vedi <a href="#multi-metrics-data">Multi-Metrics Data</a>).</p>
+</div>
+<hr />
+<h3 id="gestire-i-downtime">Gestire i Downtime</h3>
+<p>Clicca sull'<strong>icona dell'orologio</strong> per aprire il modal <strong>Active Downtimes</strong>.</p>
+<p>Dal modal puoi:</p>
+<ul>
+<li>Visualizzare i periodi di downtime pianificati</li>
+<li>Aggiungere un nuovo downtime</li>
+</ul>
+<figure>
+<p><img alt="Active Downtimes modal" src="../../../images/data_manager/tree_hierarchy/downtime_modal.png" /></p>
+<figcaption>
+<p>Fig.7 — Modal Active Downtimes</p>
+</figcaption>
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>I downtime sospendono gli alert di monitoraggio. Applicali solo durante le finestre di manutenzione pianificata.</p>
+</div>
+<hr />
+<h3 id="aprire-i-dispatcher">Aprire i Dispatcher</h3>
+<p>Clicca sull'<strong>icona dell'aeroplano di carta</strong> per accedere ai dispatcher associati all'entità.</p>
+<p>I dispatcher definiscono le azioni automatiche attivate dagli eventi di monitoraggio.</p>
+<hr />
+<h3 id="aprire-la-struttura-dellentita">Aprire la Struttura dell'Entità</h3>
+<p>Clicca sull'<strong>icona di link esterno</strong> per aprire la pagina della struttura completa dell'entità selezionata.</p>
+<p>Da lì puoi passare tra la Tree Hierarchy View e la Connections View.</p>
+<hr />
+<h3 id="aprire-i-dettagli-dellentita">Aprire i Dettagli dell'Entità</h3>
+<p>Clicca sull'<strong>icona della lente</strong> per aprire il dialog CRUD dell'entità.</p>
+<p>Dal dialog puoi visualizzare, modificare, duplicare o eliminare il record.</p>
+<hr />
+<h2 id="servizi">Servizi</h2>
+<p>Alcuni rami espongono <strong>Services</strong> invece di metriche. Un servizio rappresenta un'aggregazione di livello superiore dei dati di monitoraggio (ad esempio <code>cost.analytics.forecast.monthly</code>).</p>
+<p>Aprendo una riga di servizio vengono mostrati i dati temporali nello stesso formato del modal dei dati della metrica.</p>
+<figure>
+<p><img alt="Service data modal" src="../../../images/data_manager/tree_hierarchy/service_data_modal.png" /></p>
+<figcaption>
+<p>Fig.8 — Modal dei dati del servizio — esempio: forecast cost monthly</p>
+</figcaption>
+</figure>
+<hr />
+<h2 id="selezione-multipla-e-azioni-bulk">Selezione Multipla e Azioni Bulk</h2>
+<p>Groups, Objects, Metric Types e Metrics mostrano ciascuno una <strong>checkbox</strong> sul lato sinistro delle righe.
+Selezionando una checkbox si seleziona quell'entità e si attiva una toolbar per le azioni bulk nella parte superiore del pannello della gerarchia.</p>
+<figure>
+<p><img alt="Multi-selection toolbar — groups selected" src="../../../images/data_manager/tree_hierarchy/multi_selection_groups.png" /></p>
+<figcaption>
+<p>Fig.9 — Due gruppi selezionati — la toolbar mostra Massive Downtime e Massive Dispatchers</p>
+</figcaption>
+</figure>
+<figure>
+<p><img alt="Multi-selection toolbar — metrics selected" src="../../../images/data_manager/tree_hierarchy/multi_selection_metrics.png" /></p>
+<figcaption>
+<p>Fig.10 — Due metriche selezionate — la toolbar aggiunge Multi-Metrics Data</p>
+</figcaption>
+</figure>
+<h3 id="regole-di-selezione">Regole di Selezione</h3>
+<p>La selezione è <strong>vincolata al tipo</strong>: puoi selezionare solo entità dello stesso tipo in una singola operazione.</p>
+<ul>
+<li>La prima checkbox che selezioni determina il tipo di entità per quella selezione (ad esempio: Metric).</li>
+<li>Le checkbox a tutti gli altri livelli della gerarchia vengono automaticamente disabilitate fino a quando la selezione non viene cancellata.</li>
+<li>Per iniziare una nuova selezione di un tipo diverso, cancella la selezione corrente usando il pulsante <strong>✕</strong> nella toolbar.</li>
+</ul>
+<h3 id="azioni-bulk">Azioni Bulk</h3>
+<p>La toolbar che appare quando le entità sono selezionate espone le seguenti azioni:</p>
+<table>
+<thead>
+<tr>
+<th>Azione</th>
+<th>Disponibile per</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Massive Downtime</strong></td>
+<td>Groups, Objects, Metric Types, Metrics</td>
+<td>Applica un downtime a tutte le entità selezionate in una sola volta</td>
+</tr>
+<tr>
+<td><strong>Massive Dispatchers</strong></td>
+<td>Groups, Objects, Metric Types, Metrics</td>
+<td>Applica una regola dispatcher a tutte le entità selezionate in una sola volta</td>
+</tr>
+<tr>
+<td><strong>Multi-Metrics Data</strong></td>
+<td>Solo Metrics</td>
+<td>Apre una vista grafico unica con le serie temporali di tutte le metriche selezionate sovrapposte</td>
+</tr>
+</tbody>
+</table>
+<h3 id="multi-metrics-data">Multi-Metrics Data</h3>
+<p>Quando sono selezionate due o più <strong>Metrics</strong>, l'azione <strong>Multi-Metrics Data</strong> apre una vista grafico combinata.</p>
+<p>Ogni metrica selezionata viene mostrata come grafico separato, disposto verticalmente, condividendo lo stesso asse temporale e i controlli di zoom.</p>
+<figure>
+<p><img alt="Multi-Metrics Data view" src="../../../images/data_manager/tree_hierarchy/multi_metrics_data.png" /></p>
+<figcaption>
+<p>Fig.11 — Multi-Metrics Data — due metriche CPU visualizzate su un asse temporale condiviso</p>
+</figcaption>
+</figure>
+<p>Usa i campi <strong>Start date</strong> e <strong>End date</strong> nella parte superiore per impostare l'intervallo temporale, poi clicca <strong>UPDATE</strong> per aggiornare tutti i grafici. Le scorciatoie <strong>Zoom range</strong> (1h, 3h, 6h, 12h, 24h) regolano la finestra visibile su tutti i grafici simultaneamente.</p>
+<hr />
+<h2 id="dialog-downtime-e-dispatcher">Dialog Downtime e Dispatcher</h2>
+<h3 id="aggiungere-un-nuovo-downtime">Aggiungere un Nuovo Downtime</h3>
+<p>Cliccando sull'azione downtime (su una singola riga o tramite Massive Downtime) si apre il dialog <strong>Add new downtime</strong>.</p>
+<figure>
+<p><img alt="Add new downtime dialog" src="../../../images/data_manager/tree_hierarchy/downtime_modal.png" /></p>
+<figcaption>
+<p>Fig.12 — Dialog Add new downtime</p>
+</figcaption>
+</figure>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Code</td>
+<td>Identificatore generato automaticamente (modificabile)</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Descrizione facoltativa</td>
+</tr>
+<tr>
+<td>Start</td>
+<td>Data e ora di inizio della finestra di downtime</td>
+</tr>
+<tr>
+<td>End</td>
+<td>Data e ora di fine della finestra di downtime</td>
+</tr>
+<tr>
+<td>Calendar</td>
+<td>Alternativa alle date fisse — usa un calendario per definire la finestra di downtime</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>Filtro geografico facoltativo</td>
+</tr>
+<tr>
+<td>State/Province</td>
+<td>Filtro geografico facoltativo</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Active o Disabled</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Devi fornire <strong>Start + End date</strong> oppure un <strong>Calendar</strong>. Il dialog non salva senza almeno uno dei due.</p>
+</div>
+<h3 id="aggiungere-un-nuovo-dispatcher">Aggiungere un Nuovo Dispatcher</h3>
+<p>Cliccando sull'azione dispatcher si apre il dialog <strong>Add new dispatcher</strong>.</p>
+<figure>
+<p><img alt="Add new dispatcher dialog" src="../../../images/data_manager/tree_hierarchy/dispatcher_modal.png" /></p>
+<figcaption>
+<p>Fig.13 — Dialog Add new dispatcher</p>
+</figcaption>
+</figure>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>Tipo di dispatcher</td>
+</tr>
+<tr>
+<td>Level</td>
+<td>Livello di severità che attiva il dispatcher</td>
+</tr>
+<tr>
+<td>Code</td>
+<td>Identificatore univoco</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Descrizione facoltativa</td>
+</tr>
+<tr>
+<td>Calendar</td>
+<td>Calendario che controlla quando il dispatcher è attivo</td>
+</tr>
+<tr>
+<td>Notification Provider</td>
+<td>Canale di consegna per la notifica</td>
+</tr>
+<tr>
+<td>Message</td>
+<td>Template di messaggio da utilizzare</td>
+</tr>
+<tr>
+<td>Data profile</td>
+<td>Configurazione aggiuntiva del profilo dati</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Active o Disabled</td>
+</tr>
+<tr>
+<td>Remember it</td>
+<td>Impostazione del comportamento di ripetizione</td>
+</tr>
+<tr>
+<td>Delay</td>
+<td>Ritardo prima che il dispatcher si attivi</td>
+</tr>
+<tr>
+<td>Country / State Province</td>
+<td>Filtri geografici facoltativi</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="tree-hierarchy-view-vs-connections-view">Tree Hierarchy View vs Connections View</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tree Hierarchy View</th>
+<th>Connections View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scopo</strong></td>
+<td>Navigare la gerarchia strutturale di un'entità</td>
+<td>Esplorare le relazioni tra entità</td>
+</tr>
+<tr>
+<td><strong>Layout</strong></td>
+<td>Livelli espandibili, dall'alto verso il basso</td>
+<td>Due pannelli, a tab</td>
+</tr>
+<tr>
+<td><strong>Uso tipico</strong></td>
+<td>Capire dove si trova un oggetto e raggiungere le sue metriche</td>
+<td>Collegare o scollegare record correlati</td>
+</tr>
+</tbody>
+</table>
+<p>Usa la <strong>Tree Hierarchy View</strong> per scendere da un cliente o sito fino alle singole metriche.
+Usa la <strong>Connections View</strong> per gestire le associazioni tra entità.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      All rights reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.sections", "navigation.top", "content.code.annotate", "content.code.copy", "content.code.select", "toc.follow", "header.autohide"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

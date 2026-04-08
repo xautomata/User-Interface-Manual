@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/access_control/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/access_control/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/access_control/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/messages/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/messages/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/messages/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/notification_provider_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/notification_provider_types/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/notification_provider_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/notification_providers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/notification_providers/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/notification_providers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/overview/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/probe_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/probe_types/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/probe_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/probes/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/probes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/probes/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/users/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/users/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/users/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/administration/virtual_domains/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/virtual_domains/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/virtual_domains/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/cost_management/cloud_cost_registration/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/cloud_cost_registration/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/cloud_cost_registration/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/cost_management/cost_views/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/cost_views/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/cost_views/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/cost_management/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/overview/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/dashboards/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/dashboards/cloud_cost/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/cloud_cost/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/cloud_cost/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/dashboards/it_infrastructure/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/it_infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/it_infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/dashboards/management/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/management/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/management/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/dashboards/network/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/network/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/network/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/overview/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/tree_hierarchy_view/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/tree_hierarchy_view/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/tree_hierarchy_view/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/working_with_entities/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/working_with_entities/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/working_with_entities/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/customers/contacts/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/contacts/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/contacts/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/customers/customers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/customers/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/customers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/customers/sites/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/sites/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/sites/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/calendars/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/calendars/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/calendars/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/dispatchers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/dispatchers/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/dispatchers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/downtimes/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/downtimes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/downtimes/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/objects/groups/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/groups/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/groups/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metric_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metric_types/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metric_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metrics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metrics/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metrics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/objects/objects/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/objects/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/objects/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/data_manager/objects/services/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/services/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/services/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/getting_started/login/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/getting_started/login/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/getting_started/login/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/getting_started/navigation/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/getting_started/navigation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/getting_started/navigation/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/super_admin/acl_overrides/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/acl_overrides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/acl_overrides/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/super_admin/dashboards/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/dashboards/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/super_admin/widget_groups/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/widget_groups/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/widget_groups/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/super_admin/widgets/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/widgets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/widgets/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/analytical_accounting/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/analytical_accounting/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/analytical_accounting/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/cloud_cost/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/cloud_cost/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/cloud_cost/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/it_analytics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_analytics/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_analytics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/it_anomalies/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_anomalies/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_anomalies/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/it_infrastructure/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/mcd_dedicated/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_dedicated/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_dedicated/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/mcd_downtime/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_downtime/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_downtime/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/mcd_reboot/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_reboot/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_reboot/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/mcd_rebuild_vm/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_rebuild_vm/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_rebuild_vm/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/net_flow/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/net_flow/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/net_flow/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/network/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/network/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/network/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/network_analytics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/network_analytics/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/network_analytics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/overview/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/widgets/support_service_kpi/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/support_service_kpi/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/support_service_kpi/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/access_control/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/access_control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/access_control/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/messages/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/messages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/messages/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/notification_provider_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/notification_provider_types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/notification_provider_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/notification_providers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/notification_providers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/notification_providers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/probe_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/probe_types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/probe_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/probes/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/probes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/probes/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/users/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/users/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/users/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/administration/virtual_domains/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/administration/virtual_domains/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/administration/virtual_domains/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/cost_management/cloud_cost_registration/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/cloud_cost_registration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/cloud_cost_registration/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/cost_management/cost_views/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/cost_views/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/cost_views/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/cost_management/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/cost_management/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/cost_management/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/dashboards/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/dashboards/cloud_cost/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/cloud_cost/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/cloud_cost/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/dashboards/it_infrastructure/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/it_infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/it_infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/dashboards/management/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/management/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/management/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/dashboards/network/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/dashboards/network/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/dashboards/network/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/tree_hierarchy_view/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/tree_hierarchy_view/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/tree_hierarchy_view/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/working_with_entities/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/working_with_entities/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/working_with_entities/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/contacts/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/contacts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/contacts/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/customers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/customers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/customers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/sites/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/customers/sites/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/customers/sites/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/calendars/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/calendars/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/calendars/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/dispatchers/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/dispatchers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/dispatchers/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/downtimes/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/monitoring/downtimes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/monitoring/downtimes/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/groups/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/groups/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/groups/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metric_types/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metric_types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metric_types/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metrics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/metrics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/metrics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/objects/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/objects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/objects/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/services/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/data_manager/objects/services/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/data_manager/objects/services/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/getting_started/login/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/getting_started/login/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/getting_started/login/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/getting_started/navigation/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/getting_started/navigation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/getting_started/navigation/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/super_admin/acl_overrides/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/acl_overrides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/acl_overrides/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/super_admin/dashboards/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/dashboards/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/super_admin/widget_groups/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/widget_groups/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/widget_groups/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/super_admin/widgets/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/super_admin/widgets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/super_admin/widgets/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/analytical_accounting/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/analytical_accounting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/analytical_accounting/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/cloud_cost/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/cloud_cost/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/cloud_cost/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/it_analytics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_analytics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_analytics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/it_anomalies/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_anomalies/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_anomalies/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/it_infrastructure/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/it_infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/it_infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_dedicated/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_dedicated/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_dedicated/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_downtime/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_downtime/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_downtime/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_reboot/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_reboot/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_reboot/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_rebuild_vm/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/mcd_rebuild_vm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/mcd_rebuild_vm/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/net_flow/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/net_flow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/net_flow/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/network/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/network/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/network/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/network_analytics/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/network_analytics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/network_analytics/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/overview/"/>
+    </url>
+    <url>
+        <loc>https://xautomata.github.io/User-Interface-Manual/it/widgets/support_service_kpi/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://xautomata.github.io/User-Interface-Manual/it/widgets/support_service_kpi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xautomata.github.io/User-Interface-Manual/widgets/support_service_kpi/"/>
+    </url>
+</urlset>
