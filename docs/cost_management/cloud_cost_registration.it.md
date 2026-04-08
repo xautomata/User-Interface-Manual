@@ -133,6 +133,6 @@ XAUTOMATA utilizzerà le credenziali configurate per connettersi all'API del pro
 
 Una volta che una registrazione è attiva, XAUTOMATA recupera periodicamente i dati di fatturazione dal provider e li rende disponibili in:
 
-- il **dashboard Cloud Cost** — analisi diretta dei dati di fatturazione grezzi
+- la **dashboard Cloud Cost** — analisi diretta dei dati di fatturazione grezzi
 - i **widget Cloud Cost** — trend, suddivisioni, previsioni, anomalie
 - i **widget Analytical Accounting** — quando i costi sono organizzati tramite [Cost Views](cost_views.md)

@@ -93,7 +93,7 @@ Questa vista mostra le entità collegate al cliente:
 |---|---|
 | Contacts | Persone associate a questo cliente |
 | Users | Utenti della piattaforma che hanno accesso a questo cliente |
-| Dashboards | Dashboard associati a questo cliente |
+| Dashboards | Dashboard associate a questo cliente |
 | Services | Servizi monitorati sotto questo cliente |
 | Sites | Sedi appartenenti a questo cliente |
 

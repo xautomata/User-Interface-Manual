@@ -45,8 +45,8 @@ Clicca sull'**icona di ricerca (🔍)** su qualsiasi riga per aprire il record d
 
 | Tipo | Descrizione |
 |---|---|
-| **Global** | Dashboard condiviso disponibile per più utenti e contesti |
-| **Personal** | Dashboard associato a un account utente specifico |
+| **Global** | Dashboard condivisa disponibile per più utenti e contesti |
+| **Personal** | Dashboard associata a un account utente specifico |
 
 ### Scope della Dashboard
 

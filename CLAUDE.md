@@ -72,6 +72,10 @@ appear in the interface (button names, menu items, field labels, section titles)
 - Invent Italian equivalents for product-specific terms (e.g. "Virtual Domain", "Probe", "Dispatcher")
 - Use overly formal or bureaucratic Italian — keep the same direct, operational tone as the English version
 
+### Gender of English loanwords
+- **dashboard** is feminine: "la dashboard", "le dashboard", "una dashboard"
+  - Adjectives and participles must agree: "condivisa", "visualizzate", "stessa", "mostrata", ecc.
+
 ### Second person
 - Use the **informal "tu"** form throughout: "clicca", "seleziona", "apri", "inserisci"
 - Avoid "Lei" or passive constructions

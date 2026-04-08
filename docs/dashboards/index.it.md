@@ -38,16 +38,16 @@ La Fig. 3 mostra la pagina che appare subito dopo aver selezionato un cliente. Q
 2. Cliccando sul nome del cliente, accedi a una vista dedicata agli asset del cliente e a come sono organizzati logicamente in XAUTOMATA.
 3. Profilo utente.
 4. Crea nuove dashboard private vuote da riempire con i widget selezionati.
-5. Lista dei **Personal Dashboards**. Cliccando su una delle dashboard in questa lista accedi alla dashboard specifica.
-6. Lista degli **Shared Dashboards**. Dashboard che altri utenti hanno condiviso con te. Questa sezione appare solo se almeno una dashboard è stata condivisa con il tuo account.
-7. Lista dei **Global Dashboards**. Cliccando su una delle dashboard globali accedi a una delle seguenti:
+5. Lista delle **Personal Dashboards**. Cliccando su una delle dashboard in questa lista accedi alla dashboard specifica.
+6. Lista delle **Shared Dashboards**. Dashboard che altri utenti hanno condiviso con te. Questa sezione appare solo se almeno una dashboard è stata condivisa con il tuo account.
+7. Lista delle **Global Dashboards**. Cliccando su una delle dashboard globali accedi a una delle seguenti:
 
-      1. **Support Service KPI**: Dashboard dedicato alla visualizzazione e gestione dei ticket per i vari ITSM integrati nel servizio.
-      2. **Cloud Costs**: Dashboard dedicato alla visualizzazione dei costi cloud per i principali cloud provider.
-      3. **Cloud Cost Analytics**: Dashboard dedicato alla contabilità analitica, dove è possibile organizzare i costi cloud in base ai loro tag.
-      4. **Network**: Dashboard dedicato alla visualizzazione delle informazioni sulle reti internet.
-      5. **NetFlow**: Dashboard dedicato alla visualizzazione delle informazioni NetFlow di una rete, con dati dettagliati sulla gestione del traffico.
-      6. **IT Infrastructure**: Dashboard dedicato alla visualizzazione delle informazioni sull'infrastruttura IT.
+      1. **Support Service KPI**: Dashboard dedicata alla visualizzazione e gestione dei ticket per i vari ITSM integrati nel servizio.
+      2. **Cloud Costs**: Dashboard dedicata alla visualizzazione dei costi cloud per i principali cloud provider.
+      3. **Cloud Cost Analytics**: Dashboard dedicata alla contabilità analitica, dove è possibile organizzare i costi cloud in base ai loro tag.
+      4. **Network**: Dashboard dedicata alla visualizzazione delle informazioni sulle reti internet.
+      5. **NetFlow**: Dashboard dedicata alla visualizzazione delle informazioni NetFlow di una rete, con dati dettagliati sulla gestione del traffico.
+      6. **IT Infrastructure**: Dashboard dedicata alla visualizzazione delle informazioni sull'infrastruttura IT.
 
 8. Menu Customer/Administrator/Dispatcher.
 

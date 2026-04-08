@@ -3,7 +3,7 @@
 Il **Data Manager** è l'area di configurazione della piattaforma.
 Qui definisci e gestisci tutte le entità che rappresentano l'ambiente monitorato — organizzazioni, risorse infrastrutturali, servizi e metriche.
 
-Tutto ciò che viene visualizzato nei dashboard e nei widget ha origine dai dati configurati in questa sezione.
+Tutto ciò che viene visualizzato nelle dashboard e nei widget ha origine dai dati configurati in questa sezione.
 
 ---
 

@@ -130,7 +130,7 @@ I nodi figlio consentono di suddividere le risorse di un nodo padre in raggruppa
 
 ## Relazione con i Widget Analytical Accounting
 
-Le Cost Views alimentano i widget **Analytical Accounting** nei dashboard:
+Le Cost Views alimentano i widget **Analytical Accounting** nelle dashboard:
 
 - **Cost Nodes Tree** — mostra la gerarchia completa dei nodi con i costi effettivi e di budget per nodo
 - **Cost Resources by Tag** — mostra le risorse filtrate per combinazioni di tag

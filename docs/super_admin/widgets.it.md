@@ -1,7 +1,7 @@
 # Widgets
 
 La sezione **Widgets** gestisce il catalogo delle definizioni di widget disponibili nella piattaforma.
-Ogni definizione di widget è il record amministrativo che corrisponde a un componente visivo visualizzato nei dashboard.
+Ogni definizione di widget è il record amministrativo che corrisponde a un componente visivo visualizzato nelle dashboard.
 
 !!! warning
     Questa sezione è riservata agli utenti **Super Admin**. Le modifiche qui hanno effetto sull'intera piattaforma e su tutti gli utenti.
@@ -52,7 +52,7 @@ Clicca sull'**icona link (🔗)** su qualsiasi riga per aprire la Connections Vi
 | Dashboards | Dashboard che includono questo widget, con proprietà di layout (posizione, dimensione, impostazioni) |
 | Widget Groups | Gruppi di widget a cui appartiene questo widget |
 
-### Proprietà di Posizionamento nel Dashboard
+### Proprietà di Posizionamento nella Dashboard
 
 Quando un widget è collegato a una dashboard, l'associazione memorizza la posizione e le dimensioni del widget nella griglia della dashboard:
 
