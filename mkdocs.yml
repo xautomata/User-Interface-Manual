@@ -36,8 +36,17 @@ theme:
 repo_name: XAUTOMATA User Interface Documentation
 
 plugins:
-  - mkdocstrings
   - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: it
+          name: Italiano
+          build: true
 
 markdown_extensions:
   - pymdownx.highlight:

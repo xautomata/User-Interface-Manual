@@ -10,7 +10,9 @@ Read this before making any changes to the documentation.
 This is the **operational user manual** for the **XAUTOMATA platform** — a Digital Twin platform
 for monitoring, automating and governing complex IT and cloud infrastructures.
 
-The manual is built with **MkDocs + Material theme** and written in **English**.
+The manual is built with **MkDocs + Material theme**. It is a **bilingual project**: English is
+the default language, Italian is the secondary language, managed via the MkDocs Material `i18n`
+plugin.
 
 ### Target audience
 - **Operators and analysts** who use dashboards daily
@@ -20,8 +22,59 @@ The manual is built with **MkDocs + Material theme** and written in **English**.
 This is an **operational manual**, not a technical reference.
 - Focus on **what to do and how to do it**
 - Avoid internal technical details unless strictly necessary
-- Write in the second person ("click", "select", "open")
+- Write in the second person ("clicca", "seleziona", "apri" in Italian; "click", "select", "open" in English)
 - Short sentences, direct language
+
+---
+
+## i18n setup
+
+The project uses the MkDocs Material `i18n` plugin with the following convention:
+
+- `page.md` → **English** (default, served at `/page/`)
+- `page.it.md` → **Italian** (served at `/it/page/`)
+
+Images are **shared** between languages — paths are identical in both versions.
+The language switcher is rendered automatically by the Material theme.
+
+### Bilingual maintenance rules
+
+The Italian translation is **complete** — every `page.md` has a corresponding `page.it.md`.
+
+**Any change to the English version must be reflected in the Italian version.** This applies to:
+- New pages: create both `page.md` and `page.it.md` together
+- Content edits: apply the equivalent change to the `.it.md` file in the same session
+- Structural changes (sections added/removed): mirror them in Italian
+
+Do not leave the two versions out of sync. If a factual correction is made to the English source, fix the Italian too.
+
+---
+
+## Italian adaptation rules
+
+The XAutomata UI is in **English**. Italian pages must handle UI terms intelligently:
+
+### General principle
+Translate the prose into natural Italian, but **preserve English UI labels** exactly as they
+appear in the interface (button names, menu items, field labels, section titles).
+
+### Strategies by case
+
+| Situation | Strategy | Example |
+|---|---|---|
+| UI element used inline | Keep English, add Italian gloss on first use | `la vista **Tree Hierarchy** (gerarchia ad albero)` |
+| UI element repeated | Use English alone after first introduction | `Apri la Tree Hierarchy View` |
+| Ambiguous term | English in parentheses | `il pannello di filtro (*filter panel*)` |
+| Purely descriptive concept | Translate fully | `clicca sul pulsante di salvataggio` |
+
+### Do not
+- Translate button labels, field names, or menu items that appear verbatim in the UI
+- Invent Italian equivalents for product-specific terms (e.g. "Virtual Domain", "Probe", "Dispatcher")
+- Use overly formal or bureaucratic Italian — keep the same direct, operational tone as the English version
+
+### Second person
+- Use the **informal "tu"** form throughout: "clicca", "seleziona", "apri", "inserisci"
+- Avoid "Lei" or passive constructions
 
 ---
 
@@ -30,9 +83,9 @@ This is an **operational manual**, not a technical reference.
 These rules are established and must be followed consistently:
 
 ### Language
-- Always **English**
-- Second person imperative for instructions ("Click **SAVE CHANGES**")
-- Present tense throughout
+- **English pages**: always English, second person imperative ("Click **SAVE CHANGES**")
+- **Italian pages**: Italian prose + English UI labels, informal "tu", present tense
+- Present tense throughout in both languages
 
 ### MkDocs Material syntax
 - Admonitions: `!!! info`, `!!! warning`, `!!! note`, `!!! example`
@@ -178,8 +231,6 @@ Always check `qa.md` before finalizing pages related to:
 
 - **Screenshots**: all pages use placeholder image paths. Screenshots need to be added by the user following the path convention.
 - **Cost Views — Azure Tags type**: the configuration interface is `Coming soon` in the platform. The page documents the Nodes Tree type only.
-- **navigation.md**: Fig.2 (top bar) has a real screenshot available from session. Fig.1 and Fig.3 are still pending.
-- **mkdocs.yml**: the nav structure may need updating to reflect the actual folder structure used (e.g. `data_manager/tracking/` vs `tracking/` at root level).
 
 ---
 
@@ -213,9 +264,14 @@ When writing a new page:
 
 ## Co-authors
 
+### English version
 - **Colleague**: wrote the original widget pages (`widgets/`), initial dashboard pages, `working_with_entities.md`, and `tree_hierarchy_view.md`. His style is the reference — keep it consistent.
 - **Session 1**: wrote `dashboards/index.md`, `dashboards/management.md`.
 - **Session 2**: wrote all remaining pages across `data_manager/`, `cost_management/`, `administration/`, `super_admin/`, `getting_started/navigation.md`.
+
+### Italian adaptation (`.it.md` files)
+- **Complete** — all pages have an Italian version.
+- Going forward, update both `.md` and `.it.md` whenever a page is added or modified.
 
 ---
 

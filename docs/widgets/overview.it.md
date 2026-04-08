@@ -1,8 +1,7 @@
-# Widget Overview
+# Panoramica dei Widget
 
-Widgets are divided into categories called **widget groups**. 
-A user's access to one 
-of these groups ensures visibility of all the widgets within it.
+I widget sono suddivisi in categorie chiamate **widget group**.
+L'accesso di un utente a uno di questi gruppi garantisce la visibilità di tutti i widget al suo interno.
 
 1. [Analytical](analytical_accounting.md)
 2. [Cloud Cost](cloud_cost.md)
