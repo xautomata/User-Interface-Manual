@@ -1,6 +1,6 @@
 site_name: XAUTOMATA Documentation
 site_description: Documentation for the use of XAUTOMATA Services
-site_url: https://www.xautomata.com/
+site_url: https://xautomata.github.io/User-Interface-Manual/
 
 theme:
   favicon: images/logo.png
