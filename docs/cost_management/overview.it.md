@@ -10,7 +10,7 @@ La gestione dei costi in XAUTOMATA segue tre passaggi:
 
 1. **Registra un cloud provider** — configura le credenziali che consentono a XAUTOMATA di recuperare i dati di fatturazione da Azure, AWS o Google Cloud.
 2. **Importa i dati di fatturazione** — la piattaforma interroga periodicamente le API del provider e archivia i dati di costo grezzi.
-3. **Organizza e analizza** — usa i dati importati direttamente tramite i dashboard Cloud Cost, oppure riorganizzali in strutture personalizzate usando le Cost Views per la contabilità analitica.
+3. **Organizza e analizza** — usa i dati importati direttamente tramite le dashboard Cloud Cost, oppure riorganizzali in strutture personalizzate usando le Cost Views per la contabilità analitica.
 
 ---
 

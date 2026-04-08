@@ -140,7 +140,7 @@ Usa questa vista per controllare quali dati e dashboard un utente può vedere do
     Collega sempre gli utenti ai clienti appropriati a meno che tu non voglia intenzionalmente dargli visibilità completa su tutti i clienti.
 
 !!! note
-    Un utente senza connessioni di alcun tipo (nessun dashboard, nessun gruppo, nessun cliente) vedrà un'interfaccia largamente vuota. Assegna sempre almeno un dashboard e i clienti rilevanti.
+    Un utente senza connessioni di alcun tipo (nessuna dashboard, nessun gruppo, nessun cliente) vedrà un'interfaccia largamente vuota. Assegna sempre almeno una dashboard e i clienti rilevanti.
 
 ![User connections view](../images/administration/users/users_connections.png)
 /// caption

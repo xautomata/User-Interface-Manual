@@ -69,7 +69,7 @@ Widget Group → assegnato a Users
 L'utente vede i Widgets nei suoi gruppi assegnati
 ```
 
-Quando un utente apre un dashboard, nel catalogo dei widget appaiono solo i widget appartenenti ai widget group a lui assegnati. Se un widget group è inattivo o non assegnato all'utente, i suoi widget non sono visibili.
+Quando un utente apre una dashboard, nel catalogo dei widget appaiono solo i widget appartenenti ai widget group a lui assegnati. Se un widget group è inattivo o non assegnato all'utente, i suoi widget non sono visibili.
 
 ---
 

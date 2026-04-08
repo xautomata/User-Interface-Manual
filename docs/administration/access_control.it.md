@@ -64,7 +64,7 @@ La piattaforma riconosce quattro tipi di utente, determinati dalla combinazione 
 
 ### Operator
 
-Un utente standard senza accesso amministrativo. Può navigare i dati di monitoraggio e usare i dashboard in base ai suoi permessi Main e Tracking.
+Un utente standard senza accesso amministrativo. Può navigare i dati di monitoraggio e usare le dashboard in base ai suoi permessi Main e Tracking.
 
 Configurazione tipica:
 - Main: read

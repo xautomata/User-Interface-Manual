@@ -1,15 +1,15 @@
 # Dashboard Cloud Cost
 
-Questa pagina descrive il contenuto del dashboard **Cloud Cost**.
+Questa pagina descrive il contenuto della dashboard **Cloud Cost**.
 Qui puoi visualizzare vari widget che ti consentono di monitorare la spesa sui principali cloud provider (Azure, AWS, Google Cloud).
-Il dashboard include inoltre un sistema di rilevamento delle anomalie per identificare spese impreviste e uno strumento di previsione per stimare i costi futuri.
+La dashboard include inoltre un sistema di rilevamento delle anomalie per identificare spese impreviste e uno strumento di previsione per stimare i costi futuri.
 
 ![Overview](../images/dashboards/cloud_cost/cloud_cost_dashboard.png)
 /// caption
 Fig.1 - Dashboard Cloud Cost
 ///
 
-I widget disponibili in questo dashboard sono i seguenti:
+I widget disponibili in questa dashboard sono i seguenti:
 
 1. [costs balance month](../widgets/cloud_cost.md#costs-balance-month)
 2. [costs by day](../widgets/cloud_cost.md#costs-by-day)

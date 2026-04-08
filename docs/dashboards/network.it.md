@@ -1,6 +1,6 @@
 # Network
 
-Questa pagina descrive il contenuto del dashboard **Network**.
+Questa pagina descrive il contenuto della dashboard **Network**.
 Presenta vari widget che consentono di monitorare il funzionamento
 della rete, dallo stato degli oggetti alla loro gestione
 da parte dei sistemi automatizzati.
@@ -10,7 +10,7 @@ da parte dei sistemi automatizzati.
 Fig.1 - Dashboard Network
 ///
 
-I widget disponibili in questo dashboard sono i seguenti:
+I widget disponibili in questa dashboard sono i seguenti:
 
 1. [Lines Distribution Map](../widgets/network.md#lines-distribution-map)
 2. [Connectivity Status](../widgets/network.md#connectivity-status)

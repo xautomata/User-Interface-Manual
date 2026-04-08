@@ -10,7 +10,7 @@ L'interfaccia è composta da tre elementi:
 
 - una **top bar** — sempre visibile, con i controlli di navigazione e le impostazioni utente
 - una **left sidebar** — con il menu delle sezioni principali
-- un'**area di contenuto** — dove vengono visualizzate le pagine e i dashboard
+- un'**area di contenuto** — dove vengono visualizzate le pagine e le dashboard
 
 ![Interface layout](../images/getting_started/navigation_main.png)
 /// caption
@@ -122,7 +122,7 @@ Per una spiegazione dettagliata del funzionamento delle sezioni entità (pre-fil
 Ciò che vedi nell'interfaccia dipende dalla configurazione del tuo account:
 
 - le sezioni e le voci di menu a cui non hai accesso sono nascoste o disabilitate
-- i dashboard vengono mostrati solo se il tuo account ha visibilità su almeno uno dei widget che contengono
+- le dashboard vengono mostrate solo se il tuo account ha visibilità su almeno uno dei widget che contengono
 - i record nelle sezioni sono limitati ai clienti e ai gruppi associati al tuo account
 
-Se non riesci a trovare una sezione o un dashboard che ti aspetti di vedere, contatta il tuo amministratore per verificare i permessi del tuo account.
+Se non riesci a trovare una sezione o una dashboard che ti aspetti di vedere, contatta il tuo amministratore per verificare i permessi del tuo account.

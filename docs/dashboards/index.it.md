@@ -1,4 +1,4 @@
-# Panoramica dei Dashboard
+# Panoramica delle Dashboard
 
 ## Accesso alla Piattaforma
 
@@ -37,10 +37,10 @@ La Fig. 3 mostra la pagina che appare subito dopo aver selezionato un cliente. Q
 1. Menu Home per tornare a questa schermata durante la navigazione nel portale.
 2. Cliccando sul nome del cliente, accedi a una vista dedicata agli asset del cliente e a come sono organizzati logicamente in XAUTOMATA.
 3. Profilo utente.
-4. Crea nuovi dashboard privati vuoti da riempire con i widget selezionati.
-5. Lista dei **Personal Dashboards**. Cliccando su uno dei dashboard in questa lista accedi al dashboard specifico.
-6. Lista degli **Shared Dashboards**. Dashboard che altri utenti hanno condiviso con te. Questa sezione appare solo se almeno un dashboard è stato condiviso con il tuo account.
-7. Lista dei **Global Dashboards**. Cliccando su uno dei dashboard globali accedi a uno dei seguenti:
+4. Crea nuove dashboard private vuote da riempire con i widget selezionati.
+5. Lista dei **Personal Dashboards**. Cliccando su una delle dashboard in questa lista accedi alla dashboard specifica.
+6. Lista degli **Shared Dashboards**. Dashboard che altri utenti hanno condiviso con te. Questa sezione appare solo se almeno una dashboard è stata condivisa con il tuo account.
+7. Lista dei **Global Dashboards**. Cliccando su una delle dashboard globali accedi a una delle seguenti:
 
       1. **Support Service KPI**: Dashboard dedicato alla visualizzazione e gestione dei ticket per i vari ITSM integrati nel servizio.
       2. **Cloud Costs**: Dashboard dedicato alla visualizzazione dei costi cloud per i principali cloud provider.
@@ -58,7 +58,7 @@ Fig.3 - Dashboard Home
 
 !!! note
 
-    Non tutti i dashboard sono sempre visibili; dipende dalla visibilità che l'utente ha sui widget contenuti in ciascun dashboard. Se nessun widget di un dashboard è visibile all'utente, il dashboard stesso non verrà mostrato nell'interfaccia. La visibilità dei widget dipende dal tipo di dati raccolti da XAUTOMATA per gestire i processi digitalizzati e dal tipo di contratto in essere.
+    Non tutte le dashboard sono sempre visibili; dipende dalla visibilità che l'utente ha sui widget contenuti in ciascuna dashboard. Se nessun widget di una dashboard è visibile all'utente, la dashboard stessa non verrà mostrata nell'interfaccia. La visibilità dei widget dipende dal tipo di dati raccolti da XAUTOMATA per gestire i processi digitalizzati e dal tipo di contratto in essere.
 
 ---
 
@@ -72,19 +72,19 @@ Fig.3 - Dashboard Home
 
 !!! warning
 
-    I dashboard condivisi sono **collaborativi**: le modifiche al layout sono visibili a tutti gli utenti che hanno accesso alla stessa istanza. Usa **CLONE** per creare una copia personale se vuoi lavorare in modo indipendente.
+    Le dashboard condivise sono **collaborative**: le modifiche al layout sono visibili a tutti gli utenti che hanno accesso alla stessa istanza. Usa **CLONE** per creare una copia personale se vuoi lavorare in modo indipendente.
 
 ---
 
-## Modalità di Visualizzazione del Dashboard
+## Modalità di Visualizzazione della Dashboard
 
-Quando apri un dashboard, sei in **modalità di visualizzazione**. La barra delle azioni mostra:
+Quando apri una dashboard, sei in **modalità di visualizzazione**. La barra delle azioni mostra:
 
 | Pulsante | Azione |
 |---|---|
 | **EDIT WIDGETS** | Entra in modalità di modifica per aggiungere, spostare, ridimensionare o rimuovere widget |
-| **CLONE** | Crea una copia personale di questo dashboard |
-| **SCREENSHOT** | Scarica un'immagine istantanea della vista attuale del dashboard |
+| **CLONE** | Crea una copia personale di questa dashboard |
+| **SCREENSHOT** | Scarica un'immagine istantanea della vista attuale della dashboard |
 
 Il selettore **Customer** e il filtro **Reference Month** in alto a destra si applicano a tutti i widget simultaneamente.
 
@@ -101,4 +101,4 @@ Fig.4 — Dashboard in modalità di visualizzazione — barra delle azioni con E
 - [Network](network.md) — connettività e performance WAN
 - [Cloud Cost](cloud_cost.md) — spesa multi-cloud (Azure, AWS, GCP)
 
-Per la creazione e la configurazione dei dashboard consulta [Dashboard Management](management.md).
+Per la creazione e la configurazione delle dashboard consulta [Dashboard Management](management.md).

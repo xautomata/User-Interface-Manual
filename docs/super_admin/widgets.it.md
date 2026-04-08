@@ -54,11 +54,11 @@ Clicca sull'**icona link (🔗)** su qualsiasi riga per aprire la Connections Vi
 
 ### Proprietà di Posizionamento nel Dashboard
 
-Quando un widget è collegato a un dashboard, l'associazione memorizza la posizione e le dimensioni del widget nella griglia del dashboard:
+Quando un widget è collegato a una dashboard, l'associazione memorizza la posizione e le dimensioni del widget nella griglia della dashboard:
 
 | Proprietà | Descrizione |
 |---|---|
-| Index | Ordinamento del widget all'interno del dashboard |
+| Index | Ordinamento del widget all'interno della dashboard |
 | Width | Larghezza in unità della griglia |
 | Height | Altezza in unità della griglia |
 | Grid X | Posizione orizzontale nella griglia |

@@ -1,6 +1,6 @@
-# Gestione dei Dashboard
+# Gestione delle Dashboard
 
-Questa sezione spiega come creare, configurare e gestire i dashboard. È rivolta principalmente agli **utenti avanzati e agli amministratori**.
+Questa sezione spiega come creare, configurare e gestire le dashboard. È rivolta principalmente agli **utenti avanzati e agli amministratori**.
 
 ---
 
@@ -13,10 +13,10 @@ La barra delle azioni cambia mostrando il set completo dei controlli di modifica
 | Pulsante | Azione |
 |---|---|
 | **+ ADD WIDGET** | Apre il Widgets Catalog per aggiungere un nuovo widget |
-| **DASHBOARD SETTINGS** | Modifica i metadati del dashboard (nome, descrizione, intervallo di aggiornamento, ecc.) |
+| **DASHBOARD SETTINGS** | Modifica i metadati della dashboard (nome, descrizione, intervallo di aggiornamento, ecc.) |
 | **SAVE CHANGES** | Salva tutte le modifiche al layout e ai widget |
 | **CANCEL** | Esce dalla modalità di modifica scartando le modifiche non salvate |
-| **DELETE DASHBOARD** | Elimina definitivamente questo dashboard |
+| **DELETE DASHBOARD** | Elimina definitivamente questa dashboard |
 
 ![Dashboard edit mode](../images/dashboards/management/dashboard-edit-mode.png)
 /// caption
@@ -41,7 +41,7 @@ Il catalog offre:
 - Un'**anteprima visiva** e una breve descrizione per ogni widget
 - Un **badge con il conteggio** su ogni gruppo che mostra quanti widget contiene — clicca sull'intestazione del gruppo per espanderlo o comprimerlo
 
-Clicca su un widget per aggiungerlo alla griglia del dashboard. Il catalog si chiude e il widget appare sulla griglia con il prompt **"Drag the widget to move it"**.
+Clicca su un widget per aggiungerlo alla griglia della dashboard. Il catalog si chiude e il widget appare sulla griglia con il prompt **"Drag the widget to move it"**.
 
 ---
 
@@ -99,9 +99,9 @@ Fig.5 — Dialog Widget Settings — seleziona i parametri richiesti e abilita f
 
 Quando questo toggle è abilitato:
 
-- Il layout del dashboard rimane lo stesso per tutti i clienti
+- Il layout della dashboard rimane lo stesso per tutti i clienti
 - Ogni cliente può avere parametri widget diversi (es. una cost view o una sorgente dati diversa)
-- Utile per dashboard globali o condivisi riutilizzati su più clienti
+- Utile per dashboard globali o condivise riutilizzate su più clienti
 
 !!! info
 
@@ -109,27 +109,27 @@ Quando questo toggle è abilitato:
 
 ---
 
-## Clonare un Dashboard
+## Clonare una Dashboard
 
-In modalità di visualizzazione, clicca **CLONE** per creare una copia personale di qualsiasi dashboard — inclusi quelli globali e condivisi.
+In modalità di visualizzazione, clicca **CLONE** per creare una copia personale di qualsiasi dashboard — incluse quelle globali e condivise.
 
 Il clone viene aggiunto ai tuoi **Personal Dashboards** e può essere modificato liberamente senza influenzare l'originale.
 
 !!! info
 
-    Il cloning è l'approccio consigliato quando vuoi personalizzare un dashboard Global o Shared senza impattare gli altri utenti.
+    Il cloning è l'approccio consigliato quando vuoi personalizzare una dashboard Global o Shared senza impattare gli altri utenti.
 
 ---
 
-## Creare un Nuovo Dashboard Personale
+## Creare un Nuova Dashboard Personale
 
-1. Nella pagina home dei dashboard, clicca il pulsante **+** accanto al titolo della sezione **Personal Dashboards**
+1. Nella pagina home delle dashboard, clicca il pulsante **+** accanto al titolo della sezione **Personal Dashboards**
 2. Compila: **Name**, **Description** (facoltativo), **Refresh interval**
-3. Conferma — il nuovo dashboard vuoto si apre in **modalità di modifica**, pronto per ricevere widget
+3. Conferma — la nuova dashboard vuota si apre in **modalità di modifica**, pronta per ricevere widget
 
 ---
 
-## Modificare le Proprietà del Dashboard
+## Modificare le Proprietà della Dashboard
 
 In modalità di modifica, clicca **DASHBOARD SETTINGS** per modificare:
 
@@ -142,15 +142,15 @@ In modalità di modifica, clicca **DASHBOARD SETTINGS** per modificare:
 
 ---
 
-## Eliminare un Dashboard
+## Eliminare una Dashboard
 
 In modalità di modifica, clicca **DELETE DASHBOARD** (mostrato in rosso nella barra delle azioni).
 
 !!! warning
 
-    - Puoi eliminare solo i dashboard di cui sei **proprietario**
-    - Eliminare un dashboard lo rimuove per **tutti gli utenti** che vi avevano accesso
-    - Se hai accesso a un dashboard condiviso di cui non sei proprietario, il pulsante di eliminazione non è disponibile — puoi solo rimuoverlo dalla tua lista personale senza influenzare l'originale
+    - Puoi eliminare solo le dashboard di cui sei **proprietario**
+    - Eliminare una dashboard la rimuove per **tutti gli utenti** che vi avevano accesso
+    - Se hai accesso a una dashboard condivisa di cui non sei proprietario, il pulsante di eliminazione non è disponibile — puoi solo rimuoverla dalla tua lista personale senza influenzare l'originale
 
 ---
 
@@ -158,7 +158,7 @@ In modalità di modifica, clicca **DELETE DASHBOARD** (mostrato in rosso nella b
 
 | Ruolo | Capacità |
 |---|---|
-| **Utente standard** | Crea / modifica / elimina dashboard personali; modifica dashboard condivisi; clona qualsiasi dashboard |
-| **Amministratore** | Tutto quanto sopra + gestione dei dashboard globali e dei dashboard di altri utenti |
+| **Utente standard** | Crea / modifica / elimina dashboard personali; modifica dashboard condivise; clona qualsiasi dashboard |
+| **Amministratore** | Tutto quanto sopra + gestione delle dashboard globali e delle dashboard di altri utenti |
 
 Per la configurazione dei permessi consulta [Access Control](../administration/access_control.md).
