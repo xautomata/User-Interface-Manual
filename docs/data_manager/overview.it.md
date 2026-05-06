@@ -1,16 +1,14 @@
 # Panoramica del Data Manager
 
-Il **Data Manager** è l'area di configurazione della piattaforma.
-Qui definisci e gestisci tutte le entità che rappresentano l'ambiente monitorato — organizzazioni, risorse infrastrutturali, servizi e metriche.
+Il **menu laterale** ospita il **Data Manager** — l'area di configurazione della piattaforma in cui definisci e gestisci tutte le entità che rappresentano l'ambiente monitorato: organizzazioni, risorse infrastrutturali, servizi e metriche.
 
-Tutto ciò che viene visualizzato nelle dashboard e nei widget ha origine dai dati configurati in questa sezione.
+Tutto ciò che viene visualizzato nelle dashboard e nei widget ha origine dai dati configurati qui.
 
 ---
 
 ## Come è Organizzato
 
-Il Data Manager è accessibile dalla **left sidebar** sotto la sezione **Customers**.
-È suddiviso in due repository e un'area di tracking:
+Il Data Manager è suddiviso in due repository e un'area di tracking:
 
 | Area | Contenuto | Scopo |
 |---|---|---|

@@ -64,9 +64,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-
 nav:
-
   - Home: index.md
 
   # -------------------------------------------------------
@@ -87,9 +85,11 @@ nav:
   - Dashboards:
       - Overview: dashboards/index.md
       - Dashboard Management: dashboards/management.md
+      - Global Filters: dashboards/global_filters.md
       - IT Infrastructure: dashboards/it_infrastructure.md
       - Network: dashboards/network.md
       - Cloud Cost: dashboards/cloud_cost.md
+      - Physical Security: dashboards/physical_security.md
 
   # -------------------------------------------------------
   # SECTION 3 — WIDGETS
@@ -116,12 +116,18 @@ nav:
       - Cost Governance:
           - Cloud Cost: widgets/cloud_cost.md
           - Analytical Accounting: widgets/analytical_accounting.md
+    #   - Dedicated Widgets - banca intesa:
+    #   - Physical Security:
+    #       - Capacity Management: widgets/physical_security_capacity_management.md
+    #       - Assets Hierarchy: widgets/physical_security_assets_hierarchy.md
+    #       - Asset Map: widgets/physical_security_asset_map.md
+    #       - Firmware Updates Scheduler: widgets/physical_security_firmware_scheduler.md
 
-      # - Dedicated Widgets:
-      #     - MCD Dedicated: widgets/mcd_dedicated.md
-      #     - MCD Massive Reboot: widgets/mcd_reboot.md
-      #     - MCD Rebuild VM: widgets/mcd_rebuild_vm.md
-      #     - MCD Massive Downtime: widgets/mcd_downtime.md
+    # - Dedicated Widgets - MCD:
+    #     - MCD Dedicated: widgets/mcd_dedicated.md
+    #     - MCD Massive Reboot: widgets/mcd_reboot.md
+    #     - MCD Rebuild VM: widgets/mcd_rebuild_vm.md
+    #     - MCD Massive Downtime: widgets/mcd_downtime.md
 
   # -------------------------------------------------------
   # SECTION 4 — DATA MANAGER
@@ -183,5 +189,4 @@ nav:
       - Dashboards: super_admin/dashboards.md
       - ACL Overrides: super_admin/acl_overrides.md
 
-copyright:
-  All rights reserved
+copyright: All rights reserved
